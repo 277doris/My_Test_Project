@@ -1,0 +1,57 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\unittest_Test_fea.super.com\com.python.pydev.analysis\v2_indexcache
+add_product|1553485066160973000|C:\eclipse\workspace\unittest_Test_fea.super.com\add_product.py
+test_user_Manage|1542617016633959000|C:\eclipse\workspace\unittest_Test_fea.super.com\test_user_Manage.py
+creatDC|1553166402920416000|C:\eclipse\workspace\unittest_Test_fea.super.com\creatDC.py
+test_CaseQuery|1542610563794850000|C:\eclipse\workspace\unittest_Test_fea.super.com\test_CaseQuery.py
+test_daichao_Manage2|1542618461851279000|C:\eclipse\workspace\unittest_Test_fea.super.com\test_daichao_Manage2.py
+test_daichao_statement|1542624844391591000|C:\eclipse\workspace\unittest_Test_fea.super.com\test_daichao_statement.py
+test_APP_Manage|1545982573964196000|C:\eclipse\workspace\unittest_Test_fea.super.com\test_APP_Manage.py
+test_NameImport|1542625460151000000|C:\eclipse\workspace\unittest_Test_fea.super.com\test_NameImport.py
+-- END DISKCACHE
+-- START DICTIONARY
+27
+27=test_daichao_Manage
+24=test_daichao_Manage.setUp
+4=creatDC
+7=C:\eclipse\workspace\unittest_Test_fea.super.com\test_CaseQuery.py
+16=test_NameImport
+25=dcCreat
+20=test_NameImport.setUp
+10=test_daichao_Manage2
+19=test_APP_Manage.setUp
+2=add_product
+18=dcCreat.setUp
+8=test_CaseQuery
+23=test_user_Manage.setUp
+17=AddProduct.setUp
+3=C:\eclipse\workspace\unittest_Test_fea.super.com\creatDC.py
+12=test_daichao_statement
+21=test_daichao_statement.setUp
+5=C:\eclipse\workspace\unittest_Test_fea.super.com\test_APP_Manage.py
+1=C:\eclipse\workspace\unittest_Test_fea.super.com\add_product.py
+14=test_user_Manage
+26=AddProduct
+11=C:\eclipse\workspace\unittest_Test_fea.super.com\test_daichao_statement.py
+15=C:\eclipse\workspace\unittest_Test_fea.super.com\test_NameImport.py
+13=C:\eclipse\workspace\unittest_Test_fea.super.com\test_user_Manage.py
+22=test_CaseQuery.setUp
+6=test_APP_Manage
+9=C:\eclipse\workspace\unittest_Test_fea.super.com\test_daichao_Manage2.py
+-- END DICTIONARY
+-- START TREE 1
+6
+add|1|AddProduct!1^12#7*17@
+dcc|1|dcCreat!3^13#7*33@
+fil|3|filename!3^95#5*35@filename!5^167#5*51@filename!1^126#5*19@
+fp|3|fp!3^97#5*35@fp!5^169#5*51@fp!1^128#5*19@
+run|3|runner!3^100#5*35@runner!5^170#5*51@runner!1^131#5*19@
+tes|9|test_CaseQuery!7^8#7*65@test_daichao_Manage!9^8#7*81@test_daichao_statement!11^8#7*97@test_user_Manage!13^8#7*113@test_NameImport!15^8#7*129@test_suite!5^163#5*51@test_suite!3^86#5*35@test_APP_Manage!5^14#7*49@test_suite!1^117#5*19@
+-- END TREE
+-- START TREE 2
+3
+dri|8|driver!17&1^15#9*19@driver!18&3^16#9*35@driver!19&5^17#9*51@driver!20&15^11#9*131@driver!21&11^11#9*99@driver!22&7^11#9*67@driver!23&13^11#9*115@driver!24&9^11#9*83@
+set|8|setUp!25&3^15#9*34@setUp!26&1^14#9*18@setUp!14&13^10#9*114@setUp!8&7^10#9*66@setUp!16&15^10#9*130@setUp!27&9^10#9*82@setUp!12&11^10#9*98@setUp!6&5^16#9*50@
+tes|9|test_tearDown!6&5^158#9*50@test_app_manage!6&5^20#9*50@test_tearDown!14&13^182#9*114@test_tearDown!8&7^57#9*66@test_creatUser!25&3^19#9*34@test_tearDown!27&9^104#9*82@test_tearDown!12&11^79#9*98@test_app_manage!26&1^18#9*18@test_tearDown!16&15^57#9*130@
+-- END TREE

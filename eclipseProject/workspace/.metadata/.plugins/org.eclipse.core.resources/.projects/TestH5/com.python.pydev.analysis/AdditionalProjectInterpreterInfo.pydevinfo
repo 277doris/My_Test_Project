@@ -1,0 +1,59 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TestH5\com.python.pydev.analysis\v2_indexcache
+userdata|1553591270806140000|C:\eclipse\workspace\TestH5\userdata.py
+openExcel|1554777087007829000|C:\eclipse\workspace\TestH5\openExcel.py
+login_demo|1554790995842677000|C:\eclipse\workspace\TestH5\login_demo.py
+log_module|1553596330425338000|C:\eclipse\workspace\TestH5\log_module.py
+webdata|1554789036234684000|C:\eclipse\workspace\TestH5\webdata.py
+-- END DISKCACHE
+-- START DICTIONARY
+19
+3=C:\eclipse\workspace\TestH5\webdata.py
+9=C:\eclipse\workspace\TestH5\openExcel.py
+14=Loginfo.__init__
+5=C:\eclipse\workspace\TestH5\userdata.py
+16=Xlloginfo.log_init
+4=webdata
+19=XlUserinfo.__init__
+6=userdata
+11=Loginfo
+12=Xlloginfo
+13=XlUserinfo
+10=openExcel
+2=login_demo
+15=Xlloginfo.__init__
+8=log_module
+18=XlUserinfo.get_sheetinfo_by_index
+1=C:\eclipse\workspace\TestH5\login_demo.py
+7=C:\eclipse\workspace\TestH5\log_module.py
+17=XlUserinfo.get_sheetinfo_by_name
+-- END DICTIONARY
+-- START TREE 1
+14
+che|1|checkResult!1^64#5*18@
+ele|1|ele_dict!1^114#5*19@
+fin|1|findElement!1^31#5*18@
+get|5|get_webinfo!3^3#5*34@get_webinfo!5^3#5*50@get_userinfo!3^16#5*34@get_userinfo!5^16#5*50@get_ele_times!1^16#5*18@
+inf|2|info!5^70#5*51@info!3^70#5*35@
+log|3|Loginfo!7^5#7*65@login_test!1^87#5*18@logout!1^81#5*18@
+ope|2|openBrower!1^20#5*18@openUrl!1^26#5*18@
+sen|1|sendVals!1^47#5*18@
+she|1|sheet!9^14#1*83@
+use|1|user_list!1^118#5*19@
+xin|4|xinfo!7^58#5*67@xinfo!1^116#5*19@xinfo!3^68#5*35@xinfo!5^68#5*51@
+xl|1|xl!9^10#1*83@
+xll|1|Xlloginfo!7^20#7*65@
+xlu|2|XlUserinfo!5^35#7*49@XlUserinfo!3^35#7*33@
+-- END TREE
+-- START TREE 2
+8
+__i|4|__init__!11&7^6#9*66@__init__!12&7^22#9*66@__init__!13&5^37#9*50@__init__!13&3^37#9*34@
+get|6|get_sheet_info!13&5^40#9*50@get_sheetinfo_by_index!13&5^54#9*50@get_sheetinfo_by_name!13&5^50#9*50@get_sheetinfo_by_index!13&3^54#9*34@get_sheetinfo_by_name!13&3^50#9*34@get_sheet_info!13&3^40#9*34@
+log|7|log!14&7^8#9*67@log_close!11&7^16#9*66@log_close!12&7^49#9*66@log_write!11&7^13#9*66@log_write!12&7^47#9*66@log_init!11&7^10#9*66@log_init!12&7^41#9*66@
+row|1|row!15&7^25#9*67@
+she|5|sheet!16&7^42#9*67@sheet!17&5^51#9*51@sheet!18&5^55#9*51@sheet!17&3^51#9*35@sheet!18&3^55#9*35@
+sty|1|style!15&7^28#9*67@
+xl|3|xl!19&5^38#9*51@xl!15&7^26#9*67@xl!19&3^38#9*35@
+xl_|1|xl_write!12&7^30#9*66@
+-- END TREE

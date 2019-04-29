@@ -1,0 +1,11 @@
+
+“python:S117¼"XRename this local variable "payTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(¾Ç®üÿÿÿÿ8†‘ëÎ¢-H‰RMINORZ
+CODE_SMELL
+“python:S117À"XRename this local variable "payType" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÙÌ—˜úÿÿÿÿ8†‘ëÎ¢-H‰RMINORZ
+CODE_SMELL
+python:S117¹"YRename this local variable "payMoney" to match the regular expression ^[_a-z][a-z0-9_]*$.(—¨‹8†‘ëÎ¢-H‰RMINORZ
+CODE_SMELL
+„python:S101"QRename class "my_workplace" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(ÇØ‰úşÿÿÿÿH‰RMINORZ
+CODE_SMELL
+Npython:S125 "Remove this commented out code.(ÑñµËH‘‰RMAJORZ
+CODE_SMELL

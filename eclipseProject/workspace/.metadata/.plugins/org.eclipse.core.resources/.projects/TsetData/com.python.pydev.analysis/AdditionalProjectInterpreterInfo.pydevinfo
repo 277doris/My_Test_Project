@@ -1,0 +1,28 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TsetData\com.python.pydev.analysis\v2_indexcache
+addProduct|1552983485149675000|C:\eclipse\workspace\TsetData\addProduct.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=addProduct
+1=C:\eclipse\workspace\TsetData\addProduct.py
+-- END DICTIONARY
+-- START TREE 1
+12
+acc|1|account!1^104#5*19@
+add|1|addProd_test!1^92#5*18@
+app|1|appManageElement!1^38#5*18@
+cli|1|click!1^71#5*18@
+ele|2|ele2_dict!1^113#5*19@ele1_dict!1^110#5*19@
+get|1|get_ele_times!1^10#5*18@
+log|2|loginElement!1^25#5*18@login_test!1^82#5*18@
+ope|2|openUrl!1^20#5*18@openBrower!1^14#5*18@
+pwd|1|pwd!1^105#5*19@
+sen|1|sendVals!1^52#5*18@
+url|1|url!1^103#5*19@
+use|1|user_list!1^114#5*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

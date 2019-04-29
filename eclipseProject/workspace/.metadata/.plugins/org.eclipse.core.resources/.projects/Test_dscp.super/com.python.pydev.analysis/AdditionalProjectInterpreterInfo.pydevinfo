@@ -1,0 +1,35 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Test_dscp.super\com.python.pydev.analysis\v2_indexcache
+pay_button|1552457880056707000|C:\eclipse\workspace\Test_dscp.super\pay_button.py
+dscp_super_manage|1543549158110000000|C:\eclipse\workspace\Test_dscp.super\dscp_super_manage.py
+dscp_my_workplace|1554276742301989000|C:\eclipse\workspace\Test_dscp.super\dscp_my_workplace.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+5=C:\eclipse\workspace\Test_dscp.super\pay_button.py
+8=super_manage.setUp
+6=pay_button
+1=C:\eclipse\workspace\Test_dscp.super\dscp_my_workplace.py
+3=C:\eclipse\workspace\Test_dscp.super\dscp_super_manage.py
+4=dscp_super_manage
+9=Workplace
+7=Workplace.setUp
+2=dscp_my_workplace
+10=super_manage
+-- END DICTIONARY
+-- START TREE 1
+6
+fil|1|filename!1^391#5*19@
+fp|1|fp!1^393#5*19@
+run|1|runner!1^396#5*19@
+sup|1|super_manage!3^12#7*33@
+tes|1|test_suite!1^382#5*19@
+wor|2|Workplace!5^13#7*49@Workplace!1^19#7*17@
+-- END TREE
+-- START TREE 2
+3
+dri|3|driver!7&1^22#9*19@driver!7&5^16#9*51@driver!8&3^15#9*35@
+set|3|setUp!9&5^15#9*50@setUp!9&1^21#9*18@setUp!10&3^14#9*34@
+tes|4|test_myworkplace!9&5^19#9*50@test_tearDown!10&3^183#9*34@test_myworkplace!9&1^25#9*18@test_tearDown!9&1^376#9*18@
+-- END TREE

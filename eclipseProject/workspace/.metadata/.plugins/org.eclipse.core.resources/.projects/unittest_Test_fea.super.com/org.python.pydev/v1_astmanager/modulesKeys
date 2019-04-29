@@ -1,0 +1,9 @@
+MODULES_MANAGER_V2
+add_product|C:\eclipse\workspace\unittest_Test_fea.super.com\add_product.py
+creatDC|C:\eclipse\workspace\unittest_Test_fea.super.com\creatDC.py
+test_APP_Manage|C:\eclipse\workspace\unittest_Test_fea.super.com\test_APP_Manage.py
+test_CaseQuery|C:\eclipse\workspace\unittest_Test_fea.super.com\test_CaseQuery.py
+test_NameImport|C:\eclipse\workspace\unittest_Test_fea.super.com\test_NameImport.py
+test_daichao_Manage2|C:\eclipse\workspace\unittest_Test_fea.super.com\test_daichao_Manage2.py
+test_daichao_statement|C:\eclipse\workspace\unittest_Test_fea.super.com\test_daichao_statement.py
+test_user_Manage|C:\eclipse\workspace\unittest_Test_fea.super.com\test_user_Manage.py

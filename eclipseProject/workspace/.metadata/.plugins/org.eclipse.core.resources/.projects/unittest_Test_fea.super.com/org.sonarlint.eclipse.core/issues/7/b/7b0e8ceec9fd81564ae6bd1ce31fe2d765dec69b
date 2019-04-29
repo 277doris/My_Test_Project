@@ -1,0 +1,11 @@
+
+Mpython:S125m"Remove this commented out code.(ÑñµËH™’RMAJORZ
+CODE_SMELL
+”python:S117c"_Rename this local variable "CPS_statement1" to match the regular expression ^[_a-z][a-z0-9_]*$.(—ˆÇá8ÊöæÙò,Hš’RMINORZ
+CODE_SMELL
+python:S101"XRename class "test_daichao_Manage" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(ãİéı8ÊöæÙò,H›’RMINORZ
+CODE_SMELL
+”python:S117_"_Rename this local variable "CPC_statement1" to match the regular expression ^[_a-z][a-z0-9_]*$.(¯ë½è8ÊöæÙò,Hœ’RMINORZ
+CODE_SMELL
+”python:S117!"ZRename this local variable "click_CPA" to match the regular expression ^[_a-z][a-z0-9_]*$.(¨ƒ×òüÿÿÿÿ8ÊöæÙò,H’RMINORZ
+CODE_SMELL

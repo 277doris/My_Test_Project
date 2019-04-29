@@ -1,0 +1,7 @@
+
+—python:S117£"\Rename this local variable "Case_Manage" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÃŸ„ıÿÿÿÿ8í¿ñôõ,H¬‰RMINORZ
+CODE_SMELL
+Npython:S125æ"Remove this commented out code.(ÑñµËH­‰RMAJORZ
+CODE_SMELL
+„python:S101"JRename class "super" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(™Ùà„ûÿÿÿÿ8ÿÄäó†-H®‰RMINORZ
+CODE_SMELL

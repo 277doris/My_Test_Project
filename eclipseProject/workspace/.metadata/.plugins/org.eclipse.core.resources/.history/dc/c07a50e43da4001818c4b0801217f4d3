@@ -1,0 +1,10 @@
+# -*- coding: UTF-8 -*
+#Python 的核心非常强大，提供了很多内建的工具，Python 标准安装中包括一组模块
+#如前面章节介绍过的 math、sys 等，称为标准库（Standard Library），同时，标准库也包含其它的模块。
+
+#通过import导入math模板，如此可以使用math模板中的函数
+import math 
+#输入一个正数，并计算输出其平方根
+x = int(input("Please enter a positive number:"))
+#调用了math模板中的函数sqrt(x)
+print(math.sqrt(x))

@@ -1,0 +1,9 @@
+
+`python:S1481"&Remove the unused local variable "my".(÷àúŠøÿÿÿÿ8²©Âî,HôHRMINORZ
+CODE_SMELL
+Spython:S1250"Remove this commented out code.(ÑñµË8²©Âî,HóHRMAJORZ
+CODE_SMELL
+dpython:S1481"/Remove the unused local variable "change_card".(Ğ¾Á8²©Âî,HõHRMINORZ
+CODE_SMELL
+python:S101"\Rename class "test_Change_password_in" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(ÅÖà8ªéî,HöHRMINORZ
+CODE_SMELL

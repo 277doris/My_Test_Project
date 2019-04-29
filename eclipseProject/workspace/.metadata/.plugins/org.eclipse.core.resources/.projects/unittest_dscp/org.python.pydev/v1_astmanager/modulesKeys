@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+allCase|C:\eclipse\workspace\unittest_dscp\allCase.py
+bothCase|C:\eclipse\workspace\unittest_dscp\bothCase.py
+dscp_case_manage|C:\eclipse\workspace\unittest_dscp\dscp_case_manage.py
+dscp_super_manage|C:\eclipse\workspace\unittest_dscp\dscp_super_manage.py
+overdueCase|C:\eclipse\workspace\unittest_dscp\overdueCase.py
+todayCase|C:\eclipse\workspace\unittest_dscp\todayCase.py
+tomorrowRemindCase|C:\eclipse\workspace\unittest_dscp\tomorrowRemindCase.py
+userManage|C:\eclipse\workspace\unittest_dscp\userManage.py
+workplace|C:\eclipse\workspace\unittest_dscp\workplace.py

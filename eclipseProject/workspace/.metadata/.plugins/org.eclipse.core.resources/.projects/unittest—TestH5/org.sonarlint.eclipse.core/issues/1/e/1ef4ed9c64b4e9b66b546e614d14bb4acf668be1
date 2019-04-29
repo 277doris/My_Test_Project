@@ -1,0 +1,9 @@
+
+Spython:S125&"Remove this commented out code.(ÑñµË8ŸöóÁî,H€XRMAJORZ
+CODE_SMELL
+fpython:S1481"1Remove the unused local variable "produce_query".(¯Ÿ–Ø8ŸöóÁî,HXRMINORZ
+CODE_SMELL
+python:S101"WRename class "test_Produce_Query" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(£æ¸ÿÿÿÿÿ8ŸöóÁî,H‚XRMINORZ
+CODE_SMELL
+`python:S1481"&Remove the unused local variable "my".(÷àúŠøÿÿÿÿ8ŸöóÁî,HƒXRMINORZ
+CODE_SMELL

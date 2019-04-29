@@ -1,0 +1,5 @@
+
+Lpython:S125"Remove this commented out code.(ÑñµËHµ0RMAJORZ
+CODE_SMELL
+~python:S101"LRename class "test_pw" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(¸É úÿÿÿÿH¶0RMINORZ
+CODE_SMELL

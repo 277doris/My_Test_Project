@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.robotframework.ide.project.editor.activePage.test">
+		<item value="GeneralProjectConfigurationEditorPart" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.project.editor.activePage.robot">
+		<item value="GeneralProjectConfigurationEditorPart" key="activePage"/>
+	</section>
+</section>

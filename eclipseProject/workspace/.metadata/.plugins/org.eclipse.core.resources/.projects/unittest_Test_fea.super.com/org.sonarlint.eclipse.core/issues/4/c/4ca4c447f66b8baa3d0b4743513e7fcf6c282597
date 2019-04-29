@@ -1,0 +1,10 @@
+
+lpython:S1481B"7Remove the unused local variable "choose_chaoxiangjie".(âì£8äïÚØò,H„_RMINORZ
+CODE_SMELL
+kpython:S1313›"2Make this IP "111.202.41.75" address configurable.(‚Ï›Í8òËÃØò,Hğ^RMINORZVULNERABILITY
+Mpython:S125»"Remove this commented out code.(ÑñµËH¹^RMAJORZ
+CODE_SMELL
+fpython:S1481‘"0Remove the unused local variable "role_manage4".(÷Â£Æ8ÓŠŠÙò,Hµ_RMINORZ
+CODE_SMELL
+‰python:S101"URename class "test_user_Manage" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(Óº§¼8¬Ğ¼Øò,H¾^RMINORZ
+CODE_SMELL

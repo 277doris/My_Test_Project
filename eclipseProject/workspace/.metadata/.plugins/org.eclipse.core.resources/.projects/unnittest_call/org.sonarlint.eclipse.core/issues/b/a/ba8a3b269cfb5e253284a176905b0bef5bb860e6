@@ -1,0 +1,6 @@
+
+Špython:S101
+"WRename class "test_detail_report" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(ÞÃÚäüÿÿÿÿHØ‘RMINORZ
+CODE_SMELL
+Mpython:S125b"Remove this commented out code.(ÑñµËHÙ‘RMAJORZ
+CODE_SMELL

@@ -1,0 +1,18 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Test_acc.super.com\com.python.pydev.analysis\v2_indexcache
+Test_acc|1539873323161070000|C:\eclipse\workspace\Test_acc.super.com\Test_acc.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=C:\eclipse\workspace\Test_acc.super.com\Test_acc.py
+2=Test_acc
+-- END DICTIONARY
+-- START TREE 1
+2
+dri|1|driver!1^5#1*19@
+ele|1|element!1^6#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

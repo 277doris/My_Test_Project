@@ -1,0 +1,65 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\unittest！TestH5\com.python.pydev.analysis\v2_indexcache
+change_password|1541576935140359000|C:\eclipse\workspace\unittest！TestH5\change_password.py
+borrrow_money|1542622299504398000|C:\eclipse\workspace\unittest！TestH5\borrrow_money.py
+test_pw|1541577011454584000|C:\eclipse\workspace\unittest！TestH5\test_pw.py
+Change_Bank_Card|1542609609389966000|C:\eclipse\workspace\unittest！TestH5\Change_Bank_Card.py
+Signed|1541576976006867000|C:\eclipse\workspace\unittest！TestH5\Signed.py
+test_quick_login|1541577054601869000|C:\eclipse\workspace\unittest！TestH5\test_quick_login.py
+Change_password_in|1541576935171601000|C:\eclipse\workspace\unittest！TestH5\Change_password_in.py
+Produce_Query|1541576935343434000|C:\eclipse\workspace\unittest！TestH5\Produce_Query.py
+test_sign_in|1541577114028053000|C:\eclipse\workspace\unittest！TestH5\test_sign_in.py
+pay_money|1541576935312197000|C:\eclipse\workspace\unittest！TestH5\pay_money.py
+-- END DISKCACHE
+-- START DICTIONARY
+37
+12=borrrow_money
+30=test_change_password.setUp
+18=Produce_Query
+4=pay_money
+22=test_Change_password_in.setUp
+14=change_password
+19=C:\eclipse\workspace\unittest！TestH5\Change_password_in.py
+6=test_quick_login
+36=test_change_password
+37=test_Change_Bank_Card
+11=C:\eclipse\workspace\unittest！TestH5\borrrow_money.py
+20=Change_password_in
+1=C:\eclipse\workspace\unittest！TestH5\Signed.py
+3=C:\eclipse\workspace\unittest！TestH5\pay_money.py
+17=C:\eclipse\workspace\unittest！TestH5\Produce_Query.py
+32=test_Signed
+10=test_pw
+35=test_Change_password_in
+23=test_quick_login.setUp
+15=C:\eclipse\workspace\unittest！TestH5\test_sign_in.py
+2=Signed
+31=test_daishen
+24=test_pw.setUp
+13=C:\eclipse\workspace\unittest！TestH5\change_password.py
+25=test_Produce_Query.setUp
+5=C:\eclipse\workspace\unittest！TestH5\test_quick_login.py
+27=test_Signed.setUp
+7=C:\eclipse\workspace\unittest！TestH5\Change_Bank_Card.py
+28=test_daishen.setUp
+29=test_Change_Bank_Card.setUp
+8=Change_Bank_Card
+21=test_pay_money.setUp
+26=test_sign_in.setUp
+34=test_pay_money
+9=C:\eclipse\workspace\unittest！TestH5\test_pw.py
+16=test_sign_in
+33=test_Produce_Query
+-- END DICTIONARY
+-- START TREE 1
+1
+tes|10|test_Signed!1^6#7*17@test_pay_money!3^6#7*33@test_quick_login!5^6#7*49@test_Change_Bank_Card!7^6#7*65@test_pw!9^4#7*81@test_daishen!11^6#7*97@test_change_password!13^6#7*113@test_sign_in!15^6#7*129@test_Produce_Query!17^6#7*145@test_Change_password_in!19^6#7*161@
+-- END TREE
+-- START TREE 2
+4
+dri|10|driver!21&3^8#9*35@driver!22&19^8#9*163@driver!23&5^8#9*51@driver!24&9^7#9*83@driver!25&17^8#9*147@driver!26&15^9#9*131@driver!27&1^8#9*19@driver!28&11^8#9*99@driver!29&7^8#9*67@driver!30&13^9#9*115@
+set|10|setUp!31&11^7#9*98@setUp!32&1^7#9*18@setUp!33&17^7#9*146@setUp!10&9^6#9*82@setUp!6&5^7#9*50@setUp!34&3^7#9*34@setUp!35&19^7#9*162@setUp!36&13^8#9*114@setUp!37&7^7#9*66@setUp!16&15^8#9*130@
+tea|3|tearDown!36&13^46#9*114@tearDown!6&5^38#9*50@tearDown!16&15^45#9*130@
+tes|16|test_tearDown!37&7^39#9*66@test_quick_log!6&5^11#9*50@test_sign_in!16&15^12#9*130@test_Change_password!35&19^9#9*162@test_tearDown!35&19^42#9*162@test_login!10&9^9#9*82@test_chang_pw!36&13^11#9*114@test_Change_card!31&11^10#9*98@test_Change_card!33&17^10#9*146@test_tearDown!34&3^46#9*34@test_sign!32&1^10#9*18@test_tearDown!10&9^24#9*82@test_tearDown!33&17^32#9*146@test_pay_money!34&3^10#9*34@test_Change_card!37&7^9#9*66@test_tearDown!32&1^32#9*18@
+-- END TREE

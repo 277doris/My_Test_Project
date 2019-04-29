@@ -1,0 +1,74 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Test_fea.super.com\com.python.pydev.analysis\v2_indexcache
+Test_fea|1544009860032039000|C:\eclipse\workspace\Test_fea.super.com\Test_fea.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=Test_fea
+1=C:\eclipse\workspace\Test_fea.super.com\Test_fea.py
+-- END DICTIONARY
+-- START TREE 1
+58
+a1|1|a1!1^149#1*19@
+a2|1|a2!1^176#1*19@
+a3|1|a3!1^263#1*19@
+acc|1|account!1^313#1*19@
+add|2|add_button!1^143#1*19@add_platform1!1^141#1*19@
+adv|3|advance_case!1^70#1*19@advance_data!1^413#1*19@advance_case_num!1^360#1*19@
+bac|1|back_button!1^419#1*19@
+bas|3|basic_case!1^55#1*19@basic_data!1^410#1*19@basic_case_num!1^356#1*19@
+cas|1|case_query!1^52#1*19@
+cha|1|change_button!1^251#1*19@
+cho|2|choose_chaoxiangjie!1^309#1*19@choose_page!1^304#1*19@
+cli|1|click_CPA!1^121#1*19@
+con|3|conf_pw1!1^404#1*19@conf_pw2!1^288#1*19@conf_pw!1^328#1*19@
+cpa|1|CPA_statement!1^86#1*19@
+cpc|2|CPC_statement1!1^183#1*19@CPC_statement!1^99#1*19@
+cps|2|CPS_statement!1^108#1*19@CPS_statement1!1^187#1*19@
+cre|3|creat_button!1^331#1*19@creat_user!1^377#1*19@creat_button1!1^416#1*19@
+dai|1|daichao_user!1^275#1*19@
+dat|1|date_his!1^243#1*19@
+dis|2|distribution_button!1^353#1*19@distribution_button1!1^364#1*19@
+dow|1|down_conf!1^200#1*19@
+dri|1|driver!1^9#1*19@
+edi|5|edit_price!1^170#1*19@edit_button2!1^282#1*19@edit_button1!1^163#1*19@edit_num!1^167#1*19@edit_button!1^133#1*19@
+ele|1|element!1^10#1*19@
+exi|1|exit_button!1^424#1*19@
+exp|1|export_button!1^46#1*19@
+fre|3|freeze_button!1^125#1*19@freeze_button2!1^369#1*19@freeze_button1!1^155#1*19@
+his|1|his_date!1^95#1*19@
+imp|3|import_close!1^43#1*19@import_button!1^35#1*19@import_demo!1^38#1*19@
+ini|3|init_amount!1^319#1*19@init_pw!1^325#1*19@init_pw1!1^401#1*19@
+ipm|1|ipmort_file!1^32#1*19@
+key|2|keyword_query1!1^58#1*19@keyword_query2!1^73#1*19@
+log|1|login!1^25#1*19@
+man|3|manage_platform!1^137#1*19@manage_daichao!1^117#1*19@manage_APP!1^193#1*19@
+mod|1|modifier_button!1^291#1*19@
+new|1|new_user!1^300#1*19@
+now|1|now_date!1^94#1*19@
+num|1|num_2!1^254#1*19@
+par|1|partner_name!1^392#1*19@
+pas|1|password!1^22#1*19@
+pla|5|platform_name2!1^103#1*19@platform_user!1^338#1*19@platform_name4!1^316#1*19@platform_name1!1^90#1*19@platform_name3!1^112#1*19@
+pro|2|product_name!1^221#1*19@product_sequence!1^248#1*19@
+put|2|putaway!1^196#1*19@putaway_button!1^208#1*19@
+qur|1|qurey_button!1^238#1*19@
+rec|4|recharge_button!1^342#1*19@recharge_amount!1^345#1*19@recharge_button1!1^348#1*19@recharge!1^407#1*19@
+res|1|reset_pw!1^285#1*19@
+rol|2|role!1^381#1*19@role_manage!1^385#1*19@
+sav|3|save_button!1^146#1*19@save_button2!1^260#1*19@save_button1!1^173#1*19@
+sea|3|search_button1!1^61#1*19@search_button3!1^224#1*19@search_button2!1^76#1*19@
+sel|1|sele_product!1^233#1*19@
+sta|2|status!1^216#1*19@statement_daichao!1^83#1*19@
+tel|2|tel1!1^398#1*19@tel!1^322#1*19@
+ues|1|uesr_name!1^389#1*19@
+unf|4|unfreeze_button!1^129#1*19@unfreeze_button2!1^278#1*19@unfreeze_button1!1^159#1*19@unfreeze_button3!1^373#1*19@
+up_|1|up_button!1^257#1*19@
+use|2|user_manage!1^271#1*19@username!1^19#1*19@
+vie|1|view_button!1^65#1*19@
+whi|1|white_name!1^395#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

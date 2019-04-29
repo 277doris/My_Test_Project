@@ -1,0 +1,19 @@
+
+Œpython:S15421"QRename function "sendVals" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ëÇ—ÿşÿÿÿÿ8‰ß¼µ—-HöRMAJORZ
+CODE_SMELL
+Špython:S1542!"TRename function "findElement" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(¼—ğÒ8‰ß¼µ—-H‘öRMAJORZ
+CODE_SMELL
+python:S1542D"TRename function "checkResult" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ôĞÈÁşÿÿÿÿ8Ìë¸¡›-H’öRMAJORZ
+CODE_SMELL
+‘python:S117+"WRename this local variable "pwdEle" to match the regular expression ^[_a-z][a-z0-9_]*$.(ëºïÚıÿÿÿÿ8‰ß¼µ—-HŠöRMINORZ
+CODE_SMELL
+‹python:S1542"PRename function "openUrl" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(‡òĞÙüÿÿÿÿ8‰ß¼µ—-HöRMAJORZ
+CODE_SMELL
+python:S1542"SRename function "openBrower" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(¹ÿÃÎúÿÿÿÿ8‰ß¼µ—-HŒöRMAJORZ
+CODE_SMELL
+python:S117-"YRename this local variable "loginEle" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆ¡…à8‰ß¼µ—-H‹öRMINORZ
+CODE_SMELL
+’python:S117*"XRename this local variable "userEle" to match the regular expression ^[_a-z][a-z0-9_]*$.(êœ“ûüÿÿÿÿ8‰ß¼µ—-HöRMINORZ
+CODE_SMELL
+python:S117,"XRename this local variable "codeEle" to match the regular expression ^[_a-z][a-z0-9_]*$.(øÃº°8 –®Ñ—-HöRMINORZ
+CODE_SMELL

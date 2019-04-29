@@ -1,0 +1,7 @@
+
+bpython:S1481"-Remove the unused local variable "check_img".(æΩ„º8ƒæÙæÓ,HÂHRMINORZ
+CODE_SMELL
+Spython:S1252"Remove this commented out code.(—ÒµÀ8ö®ª†Ì,HÁHRMAJORZ
+CODE_SMELL
+çpython:S101"YRename class "test_change_password" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(Èß‚¬8ö®ª†Ì,HÊHRMINORZ
+CODE_SMELL

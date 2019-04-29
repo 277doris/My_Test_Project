@@ -1,0 +1,11 @@
+
+bpython:S1481'"(Remove the unused local variable "pic2".(Τν°¤ώÿÿÿÿ8ω‰ιεξ,H¦aRMINORZ
+CODE_SMELL
+‹python:S1176"WRename this local variable "QQ_num" to match the regular expression ^[_a-z][a-z0-9_]*$.(”°ζ•8ω‰ιεξ,H§aRMINORZ
+CODE_SMELL
+bpython:S1481"(Remove the unused local variable "pic1".(®τ£ωÿÿÿÿ8θ…βξ,H¨aRMINORZ
+CODE_SMELL
+]python:S1481""(Remove the unused local variable "pic2".(α‡μƒ8ω‰ιεξ,H©aRMINORZ
+CODE_SMELL
+python:S101"QRename class "test_daishen" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(Δ¤ρόÿÿÿÿ8ψΒ½Ϋς,HªaRMINORZ
+CODE_SMELL

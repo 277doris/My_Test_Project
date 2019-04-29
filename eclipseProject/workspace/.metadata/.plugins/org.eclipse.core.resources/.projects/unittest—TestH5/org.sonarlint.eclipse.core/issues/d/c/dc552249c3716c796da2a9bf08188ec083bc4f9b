@@ -1,0 +1,7 @@
+
+apython:S1481",Remove the unused local variable "login_in".(£›ƒ8±†×¿î,HÏIRMINORZ
+CODE_SMELL
+Lpython:S1251"Remove this commented out code.(ÑñµËHĞIRMAJORZ
+CODE_SMELL
+ƒpython:S101"QRename class "test_sign_in" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(ƒ–´÷şÿÿÿÿHÑIRMINORZ
+CODE_SMELL

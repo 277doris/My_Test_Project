@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;UItest/zongjie.ini&apos; to &apos;readconfig.py&apos;" description="Rename resource &apos;zongjie.ini&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="zongjie.ini" name="readconfig.py" stamp="1551939993721" updateReferences="true"/>
+</session>

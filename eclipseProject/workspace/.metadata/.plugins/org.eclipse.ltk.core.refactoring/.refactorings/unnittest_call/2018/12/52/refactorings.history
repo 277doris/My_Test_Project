@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;unnittest_call/black-users.py&apos; to &apos;call__admin.py&apos;" description="Rename resource &apos;black-users.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="black-users.py" name="call__admin.py" stamp="1545988810173" updateReferences="true"/>
+</session>

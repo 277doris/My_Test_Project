@@ -1,0 +1,3 @@
+uname=admin upwd=111111 ucode=dscp
+uname=yy upwd=111111 ucode=dscp
+uname=threeA upwd=111111 ucode=dscp

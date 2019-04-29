@@ -1,0 +1,68 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Test_las.super.com\com.python.pydev.analysis\v2_indexcache
+Test_las|1539871546703295000|C:\eclipse\workspace\Test_las.super.com\Test_las.py
+test_doris|1544002073825022000|C:\eclipse\workspace\Test_las.super.com\test_doris.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+1=C:\eclipse\workspace\Test_las.super.com\test_doris.py
+4=Test_las
+2=test_doris
+3=C:\eclipse\workspace\Test_las.super.com\Test_las.py
+-- END DICTIONARY
+-- START TREE 1
+49
+acc|2|account!1^352#1*19@accept!1^58#1*19@
+add|2|add_user!1^343#1*19@add_role!1^384#1*19@
+all|1|all_export!1^306#1*19@
+app|1|approval_table!1^77#1*19@
+bac|1|back_button!1^298#1*19@
+bla|2|black_uss!1^404#1*19@black_us!1^400#1*19@
+car|1|card_info!1^110#1*19@
+cas|4|case_query!1^209#1*19@case_meth!1^216#1*19@case_result!1^268#1*19@case_deal!1^249#1*19@
+cer|1|certifi_info!1^106#1*19@
+che|1|check_code!1^22#1*19@
+clo|1|close_button!1^79#1*19@
+com|1|comfirm_info!1^245#1*19@
+con|1|config_center!1^312#1*19@
+cur|2|current_window!1^340#1*19@current_handle1!1^61#1*19@
+dat|1|data_config!1^328#1*19@
+dea|3|deal_statu!1^43#1*19@deal_with!1^158#1*19@deal_status!1^219#1*19@
+del|1|delete_button!1^492#1*19@
+det|1|detail_info!1^297#1*19@
+dig|1|dig_alert!1^197#1*19@
+dri|2|driver!1^9#1*19@driver!3^5#1*35@
+edi|4|edit_name!1^458#1*19@edit_button!1^455#1*19@edit_tel!1^463#1*19@edit_other_info!1^468#1*19@
+ele|2|element!3^11#1*35@element!1^13#1*19@
+key|1|key_word!1^51#1*19@
+kw|1|kw!1^225#1*19@
+log|1|login!1^25#1*19@
+mai|1|mail!1^358#1*19@
+mou|1|mouth_select!1^130#1*19@
+nam|1|name!1^355#1*19@
+org|1|organization_config!1^320#1*19@
+oth|1|other_info!1^419#1*19@
+pas|1|password!1^19#1*19@
+pho|2|phone_address!1^148#1*19@phone_data!1^126#1*19@
+pro|5|process_config!1^324#1*19@prod_appro!1^31#1*19@product_name!1^39#1*19@product!1^272#1*19@product_config!1^316#1*19@
+que|2|query_button!1^228#1*19@query!1^54#1*19@
+ref|2|refuse_button!1^169#1*19@refuse_reason!1^185#1*19@
+rem|1|remark_info!1^189#1*19@
+rol|4|role_name!1^391#1*19@role_sp!1^349#1*19@role_select!1^347#1*19@role_id!1^388#1*19@
+sav|1|save_button!1^361#1*19@
+sel|1|select_pro!1^213#1*19@
+sou|1|source!1^47#1*19@
+sub|1|submit_button!1^163#1*19@
+sum|1|sumbit_button!1^192#1*19@
+sys|1|sys_info!1^90#1*19@
+tel|3|tel_data!1^253#1*19@tel_detail!1^140#1*19@tel!1^416#1*19@
+top|1|top_num!1^139#1*19@
+use|6|user_control!1^333#1*19@user_info!1^237#1*19@user_name!1^413#1*19@user_sc_info!1^73#1*19@user_cont!1^337#1*19@username!1^16#1*19@
+vie|1|view_button!1^233#1*19@
+wai|2|wait_appro!1^35#1*19@wait_add!1^444#1*19@
+yes|1|yes!1^426#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

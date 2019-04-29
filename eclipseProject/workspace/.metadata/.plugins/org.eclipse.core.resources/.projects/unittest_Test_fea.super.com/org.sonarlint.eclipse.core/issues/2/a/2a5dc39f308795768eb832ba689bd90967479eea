@@ -1,0 +1,13 @@
+
+•python:S117%"[Rename this local variable "userManage" to match the regular expression ^[_a-z][a-z0-9_]*$.(îœ‚ûùÿÿÿÿ8œ‘ù™-H¦ìRMINORZ
+CODE_SMELL
+python:S117)"YRename this local variable "daichaoU" to match the regular expression ^[_a-z][a-z0-9_]*$.(òíÆó8œ‘ù™-H§ìRMINORZ
+CODE_SMELL
+‘python:S117,"WRename this local variable "creatU" to match the regular expression ^[_a-z][a-z0-9_]*$.(ñ… Ëøÿÿÿÿ8œ‘ù™-H¨ìRMINORZ
+CODE_SMELL
+†python:S101"LRename class "dcCreat" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(î÷òúÿÿÿÿ8œ‘ù™-H©ìRMINORZ
+CODE_SMELL
+python:S1170"VRename this local variable "loadP" to match the regular expression ^[_a-z][a-z0-9_]*$.(‘ÿ’·úÿÿÿÿ8œ‘ù™-HªìRMINORZ
+CODE_SMELL
+‘python:S117H"WRename this local variable "creatB" to match the regular expression ^[_a-z][a-z0-9_]*$.(‡§Ûøÿÿÿÿ8œ‘ù™-H«ìRMINORZ
+CODE_SMELL

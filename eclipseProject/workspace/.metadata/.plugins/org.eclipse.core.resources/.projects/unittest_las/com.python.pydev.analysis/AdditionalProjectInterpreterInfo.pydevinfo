@@ -1,0 +1,36 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\unittest_las\com.python.pydev.analysis\v2_indexcache
+product_approval_wait|1543915468604130000|C:\eclipse\workspace\unittest_las\product_approval_wait.py
+product_approval_query|1543920011966552000|C:\eclipse\workspace\unittest_las\product_approval_query.py
+user_manage|1543922394919194000|C:\eclipse\workspace\unittest_las\user_manage.py
+product_approval_result|1543917904948430000|C:\eclipse\workspace\unittest_las\product_approval_result.py
+product_config|1543920011991493000|C:\eclipse\workspace\unittest_las\product_config.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+9=C:\eclipse\workspace\unittest_las\product_config.py
+12=test_product_approval.setUp
+13=test_product_approval
+14=test_product_config
+10=product_config
+4=product_approval_wait
+11=test_product_config.setUp
+6=product_approval_query
+5=C:\eclipse\workspace\unittest_las\product_approval_query.py
+8=user_manage
+7=C:\eclipse\workspace\unittest_las\user_manage.py
+2=product_approval_result
+3=C:\eclipse\workspace\unittest_las\product_approval_wait.py
+1=C:\eclipse\workspace\unittest_las\product_approval_result.py
+-- END DICTIONARY
+-- START TREE 1
+1
+tes|5|test_product_approval!1^10#7*17@test_product_approval!3^10#7*33@test_product_approval!5^10#7*49@test_product_config!7^15#7*65@test_product_config!9^15#7*81@
+-- END TREE
+-- START TREE 2
+3
+dri|5|driver!11&7^18#9*67@driver!11&9^18#9*83@driver!12&3^13#9*35@driver!12&1^13#9*19@driver!12&5^13#9*51@
+set|5|setUp!13&3^12#9*34@setUp!13&1^12#9*18@setUp!14&9^17#9*82@setUp!14&7^17#9*66@setUp!13&5^12#9*50@
+tes|5|test_tearDown!13&5^92#9*50@test_tearDown!13&1^77#9*18@test_tearDown!13&3^216#9*34@test_tearDown!14&9^63#9*82@test_tearDown!14&7^105#9*66@
+-- END TREE

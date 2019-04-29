@@ -1,0 +1,28 @@
+#  -*-  coding:utf-8 -*-
+#用selenium打开谷歌浏览器
+from selenium import webdriver
+import time
+driver = webdriver.Chrome()
+#打开审批系统
+driver.get("http://las.super.com/view/login.html")
+#点击登录系统的进行登录操作
+#账号
+element = driver.find_element_by_xpath("/html/body/div[2]/div/form/label[1]/div/input")
+element.send_keys("doris")
+#密码
+element = driver.find_element_by_xpath("/html/body/div[2]/div/form/label[2]/div/input")
+element.send_keys("222222")
+#验证码
+element = driver.find_element_by_xpath("/html/body/div[2]/div/form/label[3]/div/input")
+element.send_keys("spxt")
+#点击登录按钮
+element = driver.find_element_by_xpath("/html/body/div[2]/div/form/button")
+element.click()
+time.sleep(5)
+#点击产品审批
+element = driver.find_element_by_xpath("//*[@id='menu']/div/ul/li[3]/a").click()
+#点击待审
+element = driver.find_element_by_xpath("//*[@id='slideBar']/ul/li[1]/a").click()
+
+
+driver.quit()

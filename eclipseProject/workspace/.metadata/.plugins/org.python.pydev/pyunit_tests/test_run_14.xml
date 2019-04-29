@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 30" tests="1" total_time="Finished in: 52.28 secs."/>
+<test location="C:\eclipse\workspace\Test_call.super.com\admin.py" status="error" test="test_firstPage.test_tearDown" time="">
+<stdout><![CDATA[&#30331;&#24405;&#36229;&#32423;&#31649;&#29702;&#21592;&#25104;&#21151;
+&#39318;&#39029;&#27979;&#35797;&#36890;&#36807;
+&#25253;&#34920;&#31649;&#29702;&#8212;&#8212;&#22352;&#24109;&#35805;&#21153;&#25253;&#34920;&#8212;&#8212;&#26597;&#35810;&#25490;&#24207;&#23436;&#25104;
+&#25253;&#34920;&#31649;&#29702;&#8212;&#8212;&#22352;&#24109;&#35805;&#21153;&#25253;&#34920;&#8212;&#8212;&#23548;&#20986;&#25104;&#21151;
+&#25253;&#34920;&#31649;&#29702;&#8212;&#8212;&#22352;&#24109;&#35805;&#21153;&#25253;&#34920;&#8212;&#8212;&#26597;&#30475;&#19979;&#27454;&#35814;&#24773;&#36890;&#36807;
+&#25253;&#34920;&#31649;&#29702;&#8212;&#8212;&#22352;&#24109;&#35805;&#21153;&#25253;&#34920;&#27979;&#35797;&#36890;&#36807;&#65281;
+]]></stdout>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\eclipse\workspace\Test_call.super.com\admin.py", line 171, in setUp
+    Select(loan_product).select_by_visible_text('&#36229;&#20139;&#20511;')
+  File "C:\Python\Python37-32\lib\site-packages\selenium\webdriver\support\select.py", line 140, in select_by_visible_text
+    raise NoSuchElementException("Could not locate element with visible text: %s" % text)
+selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with visible text: &#36229;&#20139;&#20511;
+
+]]></stderr>
+</test>
+<launch mode="debug">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Test_call.super.com admin.py"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

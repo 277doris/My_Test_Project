@@ -1,0 +1,15 @@
+
+fpython:S1481&",Remove the unused local variable "pay_back".(ªÂÒØûÿÿÿÿ8…ÎÓÃî,HŠIRMINORZ
+CODE_SMELL
+gpython:S1481#"2Remove the unused local variable "pay_moeny_plan".(·£ôŸ8…ÎÓÃî,HIRMINORZ
+CODE_SMELL
+Spython:S1253"Remove this commented out code.(ÑñµË8…ÎÓÃî,HIRMAJORZ
+CODE_SMELL
+opython:S1481*"5Remove the unused local variable "pay_all_moeny_all".(™µá‡ıÿÿÿÿ8…ÎÓÃî,HIRMINORZ
+CODE_SMELL
+Œpython:S101"SRename class "test_pay_money" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(»ÓÈßùÿÿÿÿ8…ÎÓÃî,HŒIRMINORZ
+CODE_SMELL
+cpython:S1481")Remove the unused local variable "defer".(®Áïöúÿÿÿÿ8…ÎÓÃî,HIRMINORZ
+CODE_SMELL
+bpython:S1481"-Remove the unused local variable "pay_moeny".(´ã€ë8…ÎÓÃî,H‹IRMINORZ
+CODE_SMELL

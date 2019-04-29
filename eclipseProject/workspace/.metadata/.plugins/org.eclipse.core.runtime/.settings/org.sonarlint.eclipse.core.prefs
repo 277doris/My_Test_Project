@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+servers/localhost/auth=true
+servers/localhost/notificationsEnabled=false
+servers/localhost/url=http\://localhost\:9000
+servers/localhost1/auth=true
+servers/localhost1/notificationsEnabled=false
+servers/localhost1/url=http\://localhost\:9000/

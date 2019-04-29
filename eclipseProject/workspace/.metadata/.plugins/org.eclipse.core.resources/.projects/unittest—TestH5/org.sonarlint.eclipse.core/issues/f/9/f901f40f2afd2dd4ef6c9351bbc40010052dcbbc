@@ -1,0 +1,11 @@
+
+`python:S1481"&Remove the unused local variable "my".(÷àúŠøÿÿÿÿ8¢×½Áî,H²YRMINORZ
+CODE_SMELL
+“python:S101"ZRename class "test_Change_Bank_Card" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(•Ş‡–şÿÿÿÿ8ğùÀî,H³YRMINORZ
+CODE_SMELL
+Spython:S125-"Remove this commented out code.(ÑñµË8ğùÀî,H´YRMAJORZ
+CODE_SMELL
+python:S117"YRename this local variable "New_card" to match the regular expression ^[_a-z][a-z0-9_]*$.(·¨à·8á•šÁî,HµYRMINORZ
+CODE_SMELL
+ipython:S1481"/Remove the unused local variable "change_card".(ëÎº´üÿÿÿÿ8ù®ÓÁî,H¶YRMINORZ
+CODE_SMELL

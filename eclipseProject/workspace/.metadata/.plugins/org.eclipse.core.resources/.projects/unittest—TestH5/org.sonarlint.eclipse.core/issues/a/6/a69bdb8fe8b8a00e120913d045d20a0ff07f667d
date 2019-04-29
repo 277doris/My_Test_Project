@@ -1,0 +1,9 @@
+
+python:S101"PRename class "test_Signed" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(เหลณ8วลย๎,HรIRMINORZ
+CODE_SMELL
+Spython:S125&"Remove this commented out code.(ั๑ตห8วลย๎,HลIRMAJORZ
+CODE_SMELL
+bpython:S1481"-Remove the unused local variable "own_money".(๚๔หไ8วลย๎,HฦIRMINORZ
+CODE_SMELL
+bpython:S1481"(Remove the unused local variable "sign".(Ûฮสี๙ÿÿÿÿ8วลย๎,HฤIRMINORZ
+CODE_SMELL

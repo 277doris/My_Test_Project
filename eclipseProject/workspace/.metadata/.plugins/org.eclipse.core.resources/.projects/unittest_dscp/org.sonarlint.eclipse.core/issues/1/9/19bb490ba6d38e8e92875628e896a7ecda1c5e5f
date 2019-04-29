@@ -1,0 +1,11 @@
+
+–python:S117@"\Rename this local variable "Case_Manage" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÃŸ„ıÿÿÿÿ8œ¯°Îõ,HRMINORZ
+CODE_SMELL
+Upython:S125¼"Remove this commented out code.(ÑñµË8£¼Íõ,HRMAJORZ
+CODE_SMELL
+`python:S1481 ")Remove the unused local variable "case2".(ˆı8İù«¹ƒ-H‘RMINORZ
+CODE_SMELL
+Špython:S101"PRename class "case_manage" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(¡ù×„üÿÿÿÿ8£¼Íõ,H’RMINORZ
+CODE_SMELL
+epython:S1481Ÿ")Remove the unused local variable "case1".(ŸŞõüÿÿÿÿ8İù«¹ƒ-H“RMINORZ
+CODE_SMELL

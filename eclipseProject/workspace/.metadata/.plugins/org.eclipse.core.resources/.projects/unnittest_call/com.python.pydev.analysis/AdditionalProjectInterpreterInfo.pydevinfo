@@ -1,0 +1,78 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\unnittest_call\com.python.pydev.analysis\v2_indexcache
+blackUser|1551869633448723000|C:\eclipse\workspace\unnittest_call\blackUser.py
+organManage|1547518627621353000|C:\eclipse\workspace\unnittest_call\organManage.py
+outDetail|1547189231320568000|C:\eclipse\workspace\unnittest_call\outDetail.py
+firstPage_专员|1551340110318577000|C:\eclipse\workspace\unnittest_call\firstPage_专员.py
+firstPage_主管|1551869713062948000|C:\eclipse\workspace\unnittest_call\firstPage_主管.py
+userManage|1547454509950095000|C:\eclipse\workspace\unnittest_call\userManage.py
+callRecord|1547523879890102000|C:\eclipse\workspace\unnittest_call\callRecord.py
+productManage|1547463881203963000|C:\eclipse\workspace\unnittest_call\productManage.py
+distributeManage|1548051921970855000|C:\eclipse\workspace\unnittest_call\distributeManage.py
+userList|1547451122828490000|C:\eclipse\workspace\unnittest_call\userList.py
+blackUser2|1551687550732000000|C:\eclipse\workspace\unnittest_call\blackUser2.py
+myWorkplace|1551340702105935000|C:\eclipse\workspace\unnittest_call\myWorkplace.py
+zuoxiReport|1547191423379547000|C:\eclipse\workspace\unnittest_call\zuoxiReport.py
+-- END DISKCACHE
+-- START DICTIONARY
+44
+2=blackUser
+15=C:\eclipse\workspace\unnittest_call\productManage.py
+20=organManage
+5=C:\eclipse\workspace\unnittest_call\blackUser2.py
+8=outDetail
+38=test_out_detail
+13=C:\eclipse\workspace\unnittest_call\userList.py
+40=test_record
+4=firstPage_主管
+22=userManage
+43=test_my_workplace
+32=test_organ_control.setUp
+35=test_out_detail.setUp
+36=Source
+29=test_firstPage.setUp
+33=test_my_workplace.setUp
+7=C:\eclipse\workspace\unnittest_call\outDetail.py
+16=productManage
+14=userList
+27=Source.setUp
+41=test_detail_report
+44=test_organ_control
+21=C:\eclipse\workspace\unnittest_call\userManage.py
+17=C:\eclipse\workspace\unnittest_call\distributeManage.py
+30=test_record.setUp
+6=blackUser2
+19=C:\eclipse\workspace\unnittest_call\organManage.py
+28=test_user_list.setUp
+34=test_detail_report.setUp
+25=C:\eclipse\workspace\unnittest_call\zuoxiReport.py
+12=firstPage_专员
+11=C:\eclipse\workspace\unnittest_call\firstPage_专员.py
+42=test_user_control
+10=callRecord
+31=test_user_control.setUp
+18=distributeManage
+9=C:\eclipse\workspace\unnittest_call\callRecord.py
+1=C:\eclipse\workspace\unnittest_call\blackUser.py
+3=C:\eclipse\workspace\unnittest_call\firstPage_主管.py
+39=test_user_list
+23=C:\eclipse\workspace\unnittest_call\myWorkplace.py
+24=myWorkplace
+37=test_firstPage
+26=zuoxiReport
+-- END DICTIONARY
+-- START TREE 1
+5
+fil|3|filename!1^112#5*19@filename!3^92#5*35@filename!5^112#5*51@
+fp|3|fp!1^114#5*19@fp!5^114#5*51@fp!3^94#5*35@
+run|3|runner!3^97#5*35@runner!5^117#5*51@runner!1^117#5*19@
+sou|3|Source!3^9#7*33@Source!5^11#7*49@Source!1^11#7*17@
+tes|13|test_out_detail!7^10#7*65@test_record!9^10#7*81@test_firstPage!11^9#7*97@test_user_list!13^10#7*113@test_user_control!15^10#7*129@test_record!17^10#7*145@test_suite!1^103#5*19@test_suite!5^103#5*51@test_organ_control!19^10#7*161@test_user_control!21^10#7*177@test_suite!3^87#5*35@test_my_workplace!23^11#7*193@test_detail_report!25^10#7*209@
+-- END TREE
+-- START TREE 2
+3
+dri|13|driver!27&3^12#9*35@driver!28&13^13#9*115@driver!29&11^12#9*99@driver!27&5^14#9*51@driver!30&9^13#9*83@driver!31&15^13#9*131@driver!30&17^13#9*147@driver!31&21^13#9*179@driver!32&19^13#9*163@driver!27&1^14#9*19@driver!33&23^14#9*195@driver!34&25^13#9*211@driver!35&7^13#9*67@
+set|13|setUp!36&3^11#9*34@setUp!37&11^11#9*98@setUp!36&5^13#9*50@setUp!38&7^12#9*66@setUp!39&13^12#9*114@setUp!36&1^13#9*18@setUp!40&17^12#9*146@setUp!40&9^12#9*82@setUp!41&25^12#9*210@setUp!42&21^12#9*178@setUp!43&23^13#9*194@setUp!42&15^12#9*130@setUp!44&19^12#9*162@
+tes|16|test_tearDown!41&25^93#9*210@test_tearDown!42&21^170#9*178@test_tearDown!40&17^130#9*146@test_first_page!36&3^15#9*34@test_tearDown!40&9^86#9*82@test_black_user!36&1^17#9*18@test_tearDown!44&19^138#9*162@test_tearDown!43&23^123#9*194@test_tearDown!36&3^82#9*34@test_tearDown!37&11^116#9*98@test_tearDown!42&15^172#9*130@test_tearDown!36&5^98#9*50@test_tearDown!39&13^92#9*114@test_tearDown!38&7^104#9*66@test_tearDown!36&1^98#9*18@test_black_user!36&5^17#9*50@
+-- END TREE

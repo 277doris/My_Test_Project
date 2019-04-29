@@ -1,0 +1,5 @@
+
+Npython:S125¡"Remove this commented out code.(ÑñµËH×…RMAJORZ
+CODE_SMELL
+„python:S101"VRename class "test_my_workplace" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(ã‹­šHØ…RMINORZ
+CODE_SMELL

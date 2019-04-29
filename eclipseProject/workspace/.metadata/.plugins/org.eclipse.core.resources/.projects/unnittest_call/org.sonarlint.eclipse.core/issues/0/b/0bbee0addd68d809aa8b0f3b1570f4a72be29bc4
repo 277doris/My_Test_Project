@@ -1,0 +1,10 @@
+
+ƒpython:S101
+"PRename class "test_record" to match the regular expression ^[A-Z_][a-zA-Z0-9]+$.(Û¿ù÷þÿÿÿÿHÈ‘RMINORZ
+CODE_SMELL
+]python:S14815")Remove the unused local variable "blank".(‰Û”×ùÿÿÿÿHÉ‘RMINORZ
+CODE_SMELL
+]python:S14811")Remove the unused local variable "blank".(‰Û”×ùÿÿÿÿHÊ‘RMINORZ
+CODE_SMELL
+Mpython:S125["Remove this commented out code.(ÑñµËHË‘RMAJORZ
+CODE_SMELL

@@ -1,0 +1,9 @@
+url = http://dscp.super.com/#/
+userid = //*[@id="app"]/div/div[2]/div/div/div[2]/form/div[1]/div/div/input
+pwdid = //*[@id="app"]/div/div[2]/div/div/div[2]/form/div[2]/div/div/input
+checkcode = //*[@id="app"]/div/div[2]/div/div/div[2]/form/div[3]/div/div/input
+loginbtn = //*[@id="app"]/div/div[2]/div/div/div[2]/form/div[4]/div/button
+paybtn =  //*[@id="app"]/div/div[2]/div[2]/div/div/div/div[2]/table/tr[2]/td[11]/span[3]
+viewbtn = //*[@id="app"]/div/div[2]/div[2]/div/div/div/div[2]/table/tr[2]/td[11]/span[1]
+logoutbtn = //*[@id="app"]/div/div[1]/div[3]/ul/li[3]
+passid = //*[@id="app"]/div/div[1]/div[2]/ul/li[1]
