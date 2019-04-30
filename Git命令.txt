@@ -1,0 +1,76 @@
+1、创建一个learngit的空目录
+$ mkdir learngit——创建learngit目录
+$ cd learngit——打开learngit目录
+$ pwd——显示当前目录
+$ cat 文件——预览文件
+$ rm 文件——删除文件
+
+2、把learngit目录变成Git仓库
+$ git init——创建Git仓库
+
+3、把文件添加并提交到仓库
+$ git add 文件 文件——文件一定要在learngit目录下
+$ git commit -m "message"——提交并用-m写提交说明
+
+4、git status命令查看当前仓库的状态
+$ git status——查看仓库状态，是否有文件被修改
+
+5、git diff——查看修改内容
+$ git diff——查看修改文件的内容
+
+6、git log——查看从近到远的提交日志
+$ git log --pretty=oneline——一行显示提交文件的commit id，HEAD当前版本， 提交说明
+
+7、git reset进行版本回退
+$ git reset --hard HEAD^——回退至上一版本。   HEAD^100回退至上100个版本
+
+8、git reset --hard commit_id
+$ git reset --hard 版本号前5位
+
+9、git reflog记录每一次的命令
+$ git reflog——查看命令历史，以便确定要回到未来的哪个版本。
+
+10、把文件添加至Git版本库的两个步骤：
+1）用git add把文件天剑进去，实际是把文件修改添加至暂存区（stage）
+2）用git commit提交更改，实际是把暂存区的所有内容提交至当前分支（master）
+——提交的文件修改先放至暂存区，然后一次性提交暂存区的文件至分支（branch）
+
+11、git diff HEAD -- 文件 该命令可以查看工作区和版本库里面最新版本的区别
+
+12、git checkout --文件 可以丢弃工作区的修改、“一键还原”
+$ git checkout -- 文件——让文件回到最近一次git commit或git add时的状态
+
+13、git reset HEAD 文件——把暂存区的修改撤销掉，重新放回到工作区
+$ git reset HEAD 文件——退回版本并把文件从缓存区修改回退至工作区
+
+14、git rm 文件——从版本库中删除文件，git commit -m "message"重新提交
+
+15、添加远程库
+1）登录GitHub，找到“Create a new repo”
+2）GitBash中运行命令：$ git remote add origin git@github.com:277doris/learngit.git
+
+16、git push -u origin master——第一次推送master分支
+把本地库的内容推送到远程，用git push命令，实际是把当前分支master推送到远程
+由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分之内容推送到远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时可以简化命令。
+
+17、git push origin master——把本地master分支的最新修改推送至GitHub
+
+18、远程库克隆：勾选Initialize this repository with a README，这样GitHub会自动为我们创建一个README.md文件。创建完毕后，可以看到README.md文件。
+
+19、git clone git@github.com:277doris/gitskills.git
+
+20、git checkout -b dev——创建并切换至dev分支
+
+21、git branch——列出所有分支  *号会标出当前分支
+
+22、git branch 分支名——创建分支
+
+23、git merge 分支名——合并指定分支到当前分支
+
+24、git branch -d 分支名——删除分支
+
+25、git log --graph --pretty=oneline --abbrev-commit——用带参数的git log也可以看到分支的合并情况
+
+26、git merge --no-ff -m "merge with no-ff" dev——合并dev分支，请注意--no-ff参数，表示禁用Fast forward（加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。）
+
+27、
