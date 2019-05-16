@@ -1,0 +1,7 @@
+1、账号   Doris1   密码abc123    齐天大圣
+	sourceid   https://h5.juxinda360.com/?sourceid=k7wwxr09
+	系数：0.25
+2、账号   test2     密码abc123    哪吒闹海	
+	sourceid   https://h5.juxinda360.com/?sourceid=ooq3mjc3
+	系数：0.9
+	

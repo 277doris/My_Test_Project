@@ -1,0 +1,403 @@
+<!DOCTYPE html><html><head><title>小蜜分API接口文档V1.0.17R20180709</title><meta charset='utf-8'><link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'><style></style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+
+
+<h1 id="小蜜分api接口文档v1017r20180709">小蜜分API接口文档V1.0.17R20180709</h1>
+
+<p></p>
+
+<div><div class="toc"><div class="toc">
+<ul>
+<li><a href="#小蜜分api接口文档v1017r20180709">小蜜分API接口文档V1.0.17R20180709</a><ul>
+<li><a href="#1获取小蜜分api访问令牌">1、获取小蜜分API访问令牌</a><ul>
+<li><a href="#11-接口地址">1.1 接口地址：</a></li>
+<li><a href="#12-请求方式">1.2 请求方式：</a></li>
+<li><a href="#13-输入参数">1.3 输入参数：</a></li>
+<li><a href="#14-正常输出">1.4 正常输出：</a></li>
+<li><a href="#15-异常输出">1.5 异常输出：</a><ul>
+<li><a href="#151-秘钥不合法">1.5.1 秘钥不合法：</a></li>
+<li><a href="#152-机构帐号信息异常">1.5.2   机构帐号信息异常：</a></li>
+<li><a href="#153-机构帐号信息不匹配异常">1.5.3   机构帐号信息不匹配异常：</a></li>
+<li><a href="#154-授权接口异常">1.5.4   授权接口异常：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#2获取机构小蜜分接口">2、获取机构小蜜分接口</a><ul>
+<li><a href="#21-接口地址">2.1 接口地址：</a></li>
+<li><a href="#22-请求方式">2.2 请求方式：</a></li>
+<li><a href="#23-输入参数">2.3 输入参数：</a></li>
+<li><a href="#24-正常输出">2.4 正常输出：</a></li>
+<li><a href="#25-异常输出">2.5 异常输出：</a><ul>
+<li><a href="#251-访问令牌不合法">2.5.1 访问令牌不合法：</a></li>
+<li><a href="#252-访问令牌无效">2.5.2 访问令牌无效：</a></li>
+<li><a href="#253-访问令牌已过期">2.5.3 访问令牌已过期：</a></li>
+<li><a href="#254-姓名不合法">2.5.4 姓名不合法：</a></li>
+<li><a href="#255-身份证不合法">2.5.5 身份证不合法：</a></li>
+<li><a href="#256-手机号不合法">2.5.6 手机号不合法：</a></li>
+<li><a href="#257-version参数不符合规范">2.5.7 version参数不符合规范：</a></li>
+<li><a href="#258-机构帐号信息异常">2.5.8   机构帐号信息异常：</a></li>
+<li><a href="#259-beescore查询异常">2.5.9 BeeScore查询异常：</a></li>
+<li><a href="#2510-数据未覆盖">2.5.10 数据未覆盖：</a></li>
+<li><a href="#2511-版本无权限">2.5.11 版本无权限：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<h2 id="1获取小蜜分api访问令牌">1、获取小蜜分API访问令牌</h2>
+
+
+
+<h3 id="11-接口地址">1.1 接口地址：</h3>
+
+<blockquote>
+  <p><code>https://xmf.juxinli.com/xiaomifen_api/access_token?client_secret=XXXX&amp;account=XXX</code></p>
+</blockquote>
+
+
+
+<h3 id="12-请求方式">1.2 请求方式：</h3>
+
+<blockquote>
+  <p><code>GET</code></p>
+</blockquote>
+
+
+
+<h3 id="13-输入参数">1.3 输入参数：</h3>
+
+<blockquote>
+  <p><code>client_secret</code>、<code>account</code></p>
+</blockquote>
+
+
+
+<h3 id="14-正常输出">1.4 正常输出：</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs 1c"><div class="hljs-line">{
+</div><div class="hljs-line">  <span class="hljs-string">"code"</span>: <span class="hljs-string">"XMF_ACCESS_SUCCESS"</span>,
+</div><div class="hljs-line">  <span class="hljs-string">"code_description"</span>: <span class="hljs-string">"小蜜分获取访问令牌成功"</span>,
+</div><div class="hljs-line">  <span class="hljs-string">"data"</span>: {
+</div><div class="hljs-line">    <span class="hljs-string">"access_token"</span>: <span class="hljs-string">"3e974225508d418fb6d74c9db5452747"</span>,<span class="hljs-comment">//访问令牌</span>
+</div><div class="hljs-line">    <span class="hljs-string">"create_time"</span>: <span class="hljs-string">"1512290391000"</span>,<span class="hljs-comment">//创建时间</span>
+</div><div class="hljs-line">    <span class="hljs-string">"expire_in"</span>: <span class="hljs-string">"86400000"</span><span class="hljs-comment">//过期时间</span>
+</div><div class="hljs-line">  },
+</div><div class="hljs-line">  <span class="hljs-string">"spend_time"</span>: <span class="hljs-number">389</span><span class="hljs-comment">//接口耗时</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>为了数据安全的保障，数据访问令牌24小时有效</p>
+</blockquote>
+
+
+
+<h3 id="15-异常输出">1.5 异常输出：</h3>
+
+<h4 id="151-秘钥不合法">1.5.1 秘钥不合法：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XMF_ACCESS_ACCOUNT_OR_CLIENTSECRET_INVALID"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"小蜜分查询访问令牌或秘钥不合法"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"spend_time"</span>: <span class="hljs-number">4</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>请检查输入参数是否为空</p>
+</blockquote>
+
+
+
+<h4 id="152-机构帐号信息异常">1.5.2   机构帐号信息异常：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">  <span class="hljs-attr">"code"</span>:<span class="hljs-string">"XMF_SEARCH_ACCOUNT_EXPIRED"</span>,
+</div><div class="hljs-line">  <span class="hljs-attr">"code_description"</span>:<span class="hljs-string">"小蜜分查询账号已过期或冻结"</span>，
+</div><div class="hljs-line">  <span class="hljs-string">"spend_time"</span>: <span class="hljs-number">3</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>请联系对接的技术人员检测查询帐号是否冻结或过期等</p>
+</blockquote>
+
+
+
+<h4 id="153-机构帐号信息不匹配异常">1.5.3   机构帐号信息不匹配异常：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">  <span class="hljs-attr">"code"</span>:<span class="hljs-string">"XMF_ACCESS_ACCOUNT_CLIENTSECRET_NOT_MATCH"</span>,
+</div><div class="hljs-line">  <span class="hljs-attr">"code_description"</span>:<span class="hljs-string">"小蜜分获取访问令牌失败，client_secret和account不匹配"</span>,
+</div><div class="hljs-line">  <span class="hljs-attr">"spend_time"</span>: <span class="hljs-number">3</span>
+</div><div class="hljs-line"> }
+</div></code></pre>
+
+<blockquote>
+  <p>请联系对接的技术人员</p>
+</blockquote>
+
+
+
+<h4 id="154-授权接口异常">1.5.4   授权接口异常：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">  <span class="hljs-attr">"code"</span>:<span class="hljs-string">"XMF_INTERNAL_ERROR"</span>,
+</div><div class="hljs-line">  <span class="hljs-attr">"code_description"</span>:<span class="hljs-string">"小蜜分获取访问令牌内部异常"</span>,
+</div><div class="hljs-line">  <span class="hljs-attr">"spend_time"</span>: <span class="hljs-number">3</span>
+</div><div class="hljs-line"> } 
+</div></code></pre>
+
+<blockquote>
+  <p>请联系对接的技术人员</p>
+</blockquote>
+
+
+
+<h2 id="2获取机构小蜜分接口">2、获取机构小蜜分接口</h2>
+
+
+
+<h3 id="21-接口地址">2.1 接口地址：</h3>
+
+<blockquote>
+  <p><code>https://xmf.juxinli.com/xiaomifen_api/search?access_token=XXXX&amp;client_secret=XXXX&amp;name=XXX&amp;id_card=XXX&amp;phone=XXX</code></p>
+</blockquote>
+
+
+
+<h3 id="22-请求方式">2.2 请求方式：</h3>
+
+<blockquote>
+  <p><code>GET</code></p>
+</blockquote>
+
+
+
+<h3 id="23-输入参数">2.3 输入参数：</h3>
+
+<blockquote>
+  <p><code>access_token</code>、<code>client_secret</code>、<code>name</code>、<code>id_card</code>、<code>phone</code>、<code>version（不传默认v1）</code></p>
+</blockquote>
+
+
+
+<h3 id="24-正常输出">2.4 正常输出：</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs 1c"><div class="hljs-line">{
+</div><div class="hljs-line">   <span class="hljs-string">"code"</span>: <span class="hljs-string">"XMF_SEARCH_SUCCESS"</span>,
+</div><div class="hljs-line">   <span class="hljs-string">"code_description"</span>: <span class="hljs-string">"小蜜分查询成功"</span>,,
+</div><div class="hljs-line">   <span class="hljs-string">"data"</span>: {
+</div><div class="hljs-line">        <span class="hljs-string">"bee_score"</span>: <span class="hljs-number">697</span>,<span class="hljs-comment">//小蜜分分数</span>
+</div><div class="hljs-line">        <span class="hljs-string">"characteristic"</span>: <span class="hljs-number">94</span>,<span class="hljs-comment">//行为偏好</span>
+</div><div class="hljs-line">        <span class="hljs-string">"create_time"</span>: <span class="hljs-string">"2017-12-01T09:53:17.796"</span>,<span class="hljs-comment">//创建时间</span>
+</div><div class="hljs-line">        <span class="hljs-string">"identity"</span>: <span class="hljs-number">91</span>,<span class="hljs-comment">//身份特质</span>
+</div><div class="hljs-line">        <span class="hljs-string">"performance"</span>: <span class="hljs-number">94</span>,<span class="hljs-comment">//性能</span>
+</div><div class="hljs-line">        <span class="hljs-string">"property"</span>: <span class="hljs-number">100</span>,<span class="hljs-comment">//消费能力</span>
+</div><div class="hljs-line">        <span class="hljs-string">"relationship_network"</span>: <span class="hljs-number">68</span><span class="hljs-comment">//人脉关系</span>
+</div><div class="hljs-line">    },
+</div><div class="hljs-line">  <span class="hljs-string">"spend_time"</span>: <span class="hljs-number">1025</span><span class="hljs-comment">//耗时</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+
+
+<h3 id="25-异常输出">2.5 异常输出：</h3>
+
+
+
+<h4 id="251-访问令牌不合法">2.5.1 访问令牌不合法：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XMF_ACCESS_ACCOUNT_OR_CLIENTSECRET_INVALID"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"小蜜分查询访问令牌或秘钥不合法"</span>，
+</div><div class="hljs-line">    <span class="hljs-string">"spend_time"</span>: <span class="hljs-number">10</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+
+
+<h4 id="252-访问令牌无效">2.5.2 访问令牌无效：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XMF_SEARCH_ACCESSTOKEN_OR_CLIENTSECRET_INVALID"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"小蜜分查询，access_token 或 client_secret 无效"</span>，
+</div><div class="hljs-line">    <span class="hljs-string">"spend_time"</span>: <span class="hljs-number">5</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>重新生成访问令牌</p>
+</blockquote>
+
+
+
+<h4 id="253-访问令牌已过期">2.5.3 访问令牌已过期：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XMF_ACCESS_ACCOUNT_EXPIRED"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"小蜜分访问令牌已过期"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"spend_time"</span>: <span class="hljs-number">10</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+
+
+<h4 id="254-姓名不合法">2.5.4 姓名不合法：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XMF_SEARCH_NAME_INVALID"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"小蜜分查询姓名不合法"</span>，
+</div><div class="hljs-line">    <span class="hljs-string">"spend_time"</span>: <span class="hljs-number">4</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>核对 “ 姓名”是否格式正确</p>
+</blockquote>
+
+
+
+<h4 id="255-身份证不合法">2.5.5 身份证不合法：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XMF_SEARCH_IDCARD_INVALID"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"小蜜分查询身份证不合法"</span>，
+</div><div class="hljs-line">    <span class="hljs-string">"spend_time"</span>: <span class="hljs-number">3</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>核对 “ 身份证”是否格式正确</p>
+</blockquote>
+
+
+
+<h4 id="256-手机号不合法">2.5.6 手机号不合法：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XMF_SEARCH_PHONE_INVALID"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"小蜜分查询手机号码不合法"</span>，
+</div><div class="hljs-line">    <span class="hljs-string">"spend_time"</span>: <span class="hljs-number">5</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>核对 “ 手机号”是否格式正确</p>
+</blockquote>
+
+
+
+<h4 id="257-version参数不符合规范">2.5.7 version参数不符合规范：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XMF_SEARCH_VERSION_INVALID"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"小蜜分查询:参数version不符合规范"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"spend_time"</span>: <span class="hljs-number">7</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>核对 “ 版本号”是否格式正确</p>
+</blockquote>
+
+
+
+<h4 id="258-机构帐号信息异常">2.5.8   机构帐号信息异常：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">  <span class="hljs-attr">"code"</span>:<span class="hljs-string">"XMF_SEARCH_ACCOUNT_EXPIRED"</span>,
+</div><div class="hljs-line">  <span class="hljs-attr">"code_description"</span>:<span class="hljs-string">"小蜜分查询账号已过期或冻结"</span>，
+</div><div class="hljs-line">  <span class="hljs-string">"spend_time"</span>: <span class="hljs-number">6</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>请联系对接的技术人员检测查询帐号是否冻结或过期等</p>
+</blockquote>
+
+
+
+<h4 id="259-beescore查询异常">2.5.9 BeeScore查询异常：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">  <span class="hljs-attr">"code"</span>:<span class="hljs-string">"XMF_SEARCH_ERROR"</span>,
+</div><div class="hljs-line">  <span class="hljs-attr">"code_description"</span>:<span class="hljs-string">"小蜜分查询内部异常"</span> ,
+</div><div class="hljs-line">  <span class="hljs-attr">"spend_time"</span>: <span class="hljs-number">10</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>联系技术对接人员</p>
+</blockquote>
+
+
+
+<h4 id="2510-数据未覆盖">2.5.10 数据未覆盖：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XML_SEARCH_FIRST"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"小蜜分用户数据未覆盖"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"spend_time"</span>: <span class="hljs-number">6</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+
+
+<h4 id="2511-版本无权限">2.5.11 版本无权限：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs json"><div class="hljs-line">{
+</div><div class="hljs-line">    <span class="hljs-attr">"code"</span>: <span class="hljs-string">"XMF_SEARCH_V2_NO_PERMISSION"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"code_description"</span>: <span class="hljs-string">"您暂时没有权限访问V2版本接口"</span>,
+</div><div class="hljs-line">    <span class="hljs-attr">"spend_time"</span>: <span class="hljs-number">24</span>
+</div><div class="hljs-line">}
+</div></code></pre>
+
+<blockquote>
+  <p>核对是否有权限调用该版本</p>
+</blockquote></div></body></html>

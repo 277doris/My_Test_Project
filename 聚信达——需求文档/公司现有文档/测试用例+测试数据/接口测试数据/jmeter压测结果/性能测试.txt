@@ -1,0 +1,4 @@
+1、线程
+2、进程
+3、程序
+Linux命令：top等等   mvstart

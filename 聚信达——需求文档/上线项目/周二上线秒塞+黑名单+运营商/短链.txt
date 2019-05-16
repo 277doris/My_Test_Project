@@ -1,0 +1,19 @@
+添加长链生成短链接口：
+192.168.1.114:18608/user/insertUrl
+入参：KEY: String url  ,String chineseName  （url必须http:// 或 https://开头）
+
+
+查询全部生成短链后数据：
+192.168.1.114:18608/user/selectUrl
+入参：无
+
+
+查询Hits点击量：
+192.168.1.114:18608/user/selectClickNumber
+入参：无
+
+
+
+
+点击生成短链跳转到对应长链：（用户点击短链调用该接口）
+192.168.1.114:18608/user/insertHits

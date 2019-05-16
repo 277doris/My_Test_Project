@@ -1,0 +1,6 @@
+1、QTP
+2、loadrunner
+3、eclipse
+4、soapUI
+5、fiddler
+6、Python

@@ -1,0 +1,112 @@
+贷超后台新增接口：
+
+一、 
+接口地址:/super/querySuperOrg
+说明：根据机构类型查询贷超机构 （分页），进入贷超机构页面时调用查询机构列表并展示
+入参；
+	1.orgType机构类型 1:CPA、2:CPC、3:CPS	
+	——点击选择
+	2.pageInt页数 	
+	——默认传1
+	3.pageSize每页显示记录数  	
+	——默认传10
+出参：
+	1.query机构列表
+		列表参数：id，orgName（机构名）,superCount（机构下属平台数量）,createTime（创建时间）
+	2.count总数
+
+二、
+接口地址：/super/saveSuperOrg
+说明：新增贷超机构，贷超机构页面中添加机构保存时调用
+入参：
+	1.orgName机构名称
+	2.orgType机构类型 1:CPA、2:CPC、3:CPS
+出参： 
+	成功或失败
+	
+三、
+接口地址：/super/delSuperOrg
+说明：删除贷超机构，贷超机构页面机构列表点击删除机构时调用
+入参：
+	1.id机构id
+	2.flag 1:冻结 0：解冻
+出参：
+	成功
+	
+四、
+接口地址：/super/querySuperByOrg
+说明：根据机构查询下属平台列表 （分页），贷超机构页面编辑机构页面查询机构下属平台时调用
+入参：
+	1.orgId机构ID
+	2.pageInt页数，传0展示所有记录不分页
+	3.pageSize每页显示记录数
+出参：
+	成功
+	
+五、
+接口地址：/super/queryUnassigned
+说明：查询未分配的贷超平台，增减平台功能展示未分配平台列表
+入参：
+	1.orgId机构ID
+出参：
+	1.wfpList 未分配列表
+	2.yfpList 已分配列表
+	
+六、
+接口地址：/super/updateSuperAll
+说明： 批量分配贷超平台，增减平台功能点击保存时调用该接口，需要传未分配列表的平台ID数组及分配列表的平台ID数组进行批量分配。
+入参：
+	1.orgNullId 未分配平台id 数组
+  2.orgHaveId 分配平台id 数组
+  3.orgId  机构id
+出参：
+	成功
+
+七、
+接口地址：/super/delSuper
+说明：删除贷超平台
+入参：
+	1.id 平台ID
+	2.flag 1:冻结 0：解冻
+出参：
+	成功
+	
+	
+下面贷超报表用的接口
+
+一、
+接口地址：/super/summaryTolByOrg
+说明：根据机构类型查询总计
+入参：
+	1.orgType机构类型 1:CPA、2:CPC、3:CPS
+出参：
+	同之前summaryTol接口
+	
+二、
+接口地址：/super/queryAllByOrg
+说明：根据机构类型查询所有贷超数据
+入参：
+	1.orgType机构类型 1:CPA、2:CPC、3:CPS
+出参：
+	同之前summaryTol接口
+
+
+
+
+
+上线前数据库修改  =========================================下面内容为数据库修改
+ --新建贷超机构表
+ CREATE TABLE
+    jc_super_org
+    (
+        id INT NOT NULL AUTO_INCREMENT COMMENT '主键',
+        org_name VARCHAR(50) NOT NULL COMMENT '机构名',
+        org_type INT NOT NULL COMMENT '机构类型1:CPA、2:CPC、3:CPS',
+        create_time DATETIME COMMENT '创建时间',
+        PRIMARY KEY (id)
+    )
+    ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='贷超机构表';
+ --修改贷超表结构
+        ALTER TABLE
+    feature_service.jc_super ADD (org_id INT COMMENT '所属机构' );
+    

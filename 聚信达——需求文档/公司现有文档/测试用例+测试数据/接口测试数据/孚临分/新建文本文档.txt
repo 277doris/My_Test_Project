@@ -1,0 +1,28 @@
+{"customerId": "HJGS1807171101",
+"customerProdId": "PROD1807198030205629325",
+"mobile": "13436391661",
+"name": "刘磊",
+"idCardNo": "411081199004235955",
+"timestamp": "1528527568482"}
+
+"mobile", "15927236181"，
+"name", "毛俊邱"
+"idCardNo", "421022199505210053"
+
+mobile = "15691699898";
+   
+String name = "杜宏涛";
+        
+idCardNo = "610202197611142016";
+
+解密data后的内容为：
+字段	字段名	必填	类型	说明
+name	名字	M	String	姓名
+mobile	手机号	M	String	手机号
+idCardNo	身份证号	M	String	身份证号
+score	灵芝分		String	正常返回区间为300至900，返回-1表示未命中，没有值表示服务器异常
+
+score": "-1",
+"idCardNo": "411081199004235955",
+"mobile": "13436391661",
+"name": "刘磊"

@@ -1,0 +1,7 @@
+https://blog.csdn.net/hourgtester/article/details/77924503
+用Chrome录制
+https://www.cnblogs.com/qmfsun/p/4807237.html
+loadrunner支持的浏览器
+
+jmeter测试手机app
+https://www.cnblogs.com/quyong/p/5947122.html
