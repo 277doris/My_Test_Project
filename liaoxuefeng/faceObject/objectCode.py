@@ -142,3 +142,239 @@ def printname(self):
 '''
 
 #在Class内部，可以有属性和方法，而外部代码可以通过直接调用实例变量的方法来操作数据，这样，就隐藏了内部的复杂逻辑。
+
+'''
+#定义一个学生的类
+class Student(object):
+
+    def __init__(self, name, score):     #对实例进行初始化
+        self.name = name
+        self.score = score
+
+    def get_grade(self):        #定义类的属性
+        if self.score >= 90:
+            return 'A'
+        if self.score >= 60:
+            return 'B'
+        else:
+            return 'C'
+#实体化类
+lisa = Student('Lisa', 99)
+bart = Student('Bart', 57)
+#打印类的实例及属性
+print (lisa.name, lisa.score, lisa.get_grade())
+print (bart.name, bart.score, bart.get_grade())
+'''
+'''
+#创建类
+class Student(object):
+    #初始化类的属性
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+    #定义类的属性
+    def get_grade(self):
+        if self.score >= 90:
+            return '您的本次考试优秀，被评为A'
+        if self.score > 60:
+            return '您的本次考试合格，被评为B'
+        else:
+            return '很抱歉，您的本次考试未通过，被评为C'
+#实例化类
+lisa = Student('Lisa', 90)
+bart = Student('Bart', 55)
+print(lisa.name, lisa.score, lisa.get_grade())
+print(bart.name, bart.score, bart.get_grade())
+'''
+
+'''
+#访问限制：
+#创建一个类
+class Student(object):
+    #初始化类的属性
+    def __init__(self, name, gender):
+        self.name = name
+        self.__gender = gender
+    #私有化类的属性
+    def get_gender(self):
+        return self.__gender
+    #重新定义类，检查参数
+    def set_gender(self, gender):
+        if gender.lower() in ['male', 'female']:
+            self.__gender = gender
+        else:
+            raise ValueError('Wrong!')
+#实例化类
+bart = Student('Bart', 'male')
+if bart.get_gender() != 'male':
+    print('测试失败！')
+else:
+    bart.set_gender('female')
+    if bart.get_gender() != 'female':
+        print('测试失败！')
+    else:
+        print('测试成功！')
+'''
+
+''' 
+#继承和多类
+#在OOP程序设计中，当我们定义一个class的时候，可以从某个现有的class继承，新的class称为子类（Subclass），而被继承的class称
+#为基类、父类或超类（Base class、Super class）。
+#比如，我们已经编写了一个名为Animal的class，有一个run()方法可以直接打印：
+
+# class Animal(object):
+#     def run(self):
+#         print('Animal is running……')
+# class Dog(Animal):
+#     def run(self):
+#         print('Dog is running……')
+#     def size(self):
+#         print('Dog is big……')
+# class Cat(Animal):
+#     def run(self):
+#             print('Cat is running……')
+#     def eat(self):
+#         print('Cat like eat fish!')
+# dog = Dog()
+# dog.run()
+# dog.size()
+# cat = Cat()
+# cat.eat()
+#
+# a = list() #a是list类型
+# b = Animal() #b是Animal类型
+# c = Dog() #c是Dog类型
+# #判断一个变量是否是某个类型可以用isinstance()判断
+# print(isinstance(a, list))      #True
+# print(isinstance(b, Animal))    #True
+# print(isinstance(c, Dog))       #True
+# print(isinstance(c, Animal))    #True
+# #在继承关系中，如果一个实例的数据类型是某个子类，那它的数据类型也可以被看做是父类。但是，反过来就不行：
+# print(isinstance(b, Dog))       #False
+# #要理解多态的好处，我们还需要再编写一个函数，这个函数接受一个Animal类型的变量：
+# def run_twice(animal):
+#     animal.run()
+#     animal.run()
+# #当我们传入Animal的实例时，run_twice()就打印出：
+# run_twice(Animal())
+# run_twice(Cat())
+# class Tortoise(Animal):
+#     def run(self):
+#         print('Tortoise is running slowly……')
+# run_twice(Tortoise())
+#新增一个Animal的子类，不必对run_twice()做任何修改，实际上，任何依赖Animal作为参数的函数或者方法
+#都可以不加修改地正常运行，原因就在于多态。
+'''
+'''
+多态的好处就是，当我们需要传入Dog、Cat、Tortoise……时，我们只需要接收Animal类型就可以了，因为Dog、Cat、Tortoise……都是
+Animal类型，然后，按照Animal类型进行操作即可。由于Animal类型有run()方法，因此，传入的任意类型，只要是Animal类或者子类，
+就会自动调用实际类型的run()方法，这就是多态的意思：对于一个变量，我们只需要知道它是Animal类型，无需确切地知道它的子类型，
+就可以放心地调用run()方法，而具体调用的run()方法是作用在Animal、Dog、Cat还是Tortoise对象上，由运行时该对象的确切类型决定，
+这就是多态真正的威力：调用方只管调用，不管细节，而当我们新增一种Animal的子类时，只要确保run()方法编写正确，不用管原来的
+代码是如何调用的。这就是著名的“开闭”原则：对扩展开放：允许新增Animal子类；对修改封闭：不需要修改依赖Animal类型的run_twice()等函数。
+'''
+'''
+#静态语言VS动态语言
+#对于静态语言（例如Java）来说，如果需要传入Animal类型，则传入的对象必须是Animal类型或者它的子类，否则，将无法调用run()方法。
+#对于Python这样的动态语言来说，则不一定需要传入Animal类型。我们只需要保证传入的对象有一个run()方法就可以了：
+# 小结：继承可以把父类的所有功能都直接拿过来，这样就不必重零做起，子类只需要新增自己特有的方法，也可以把父类不适合的方法覆盖重写。
+# 动态语言的鸭子类型特点决定了继承不像静态语言那样是必须的。
+
+#获取对象信息
+#基本类型都可以用type()判断
+# print(type(123))    #<class 'int'>
+# print(type('123'))  #<class 'str'>
+# print(type(None))   #<class 'NoneType'>
+#如果一个变量指向函数或者类，也可以用type()判断
+# print(type(abs))    #<class 'builtin_function_or_method'>
+#但是type()函数返回的是class类型，如果我们要在if语句中判断，就需要比较两个变量的type类型是否相同
+# print(type(123) == type(345))
+# print(type(123) == type('345'))
+# print(type(123) == int)
+#判断基本数据类型可以直接写int，str等，但如果要判断一个对象是否是函数，需要在types模块中定义常量
+
+# import types
+# def fn():
+#     pass
+# print(type(fn) == types.FunctionType)
+
+#使用isinstance()
+#对于class的继承关系来说，使用type()就很不方便。我们要判断class的类型，可以使用isinstance()函数。
+#如果继承的关系是：object——>Animal——>Dog——>Husky
+#那么，isinstance()就可以告诉我们，一个对象是否是某种类型。先创建3种类型的对象：
+# class Animal(object):
+#     def run(self):
+#         print('Animal is running……')
+# class Dog(Animal):
+#     def run(self):
+#         print('Dog is running……')
+#     def size(self):
+#         print('Dog is big……')
+# class Husky(Animal):
+#     pass
+# a = Animal()
+# d = Dog()
+# h = Husky()
+# print(isinstance(a, Animal))
+# print(isinstance(d, Husky))
+# print(isinstance(d, Dog) and isinstance(d, Animal))
+#
+# print(isinstance([1, 2, 3], (list, tuple)))
+# print(isinstance((1, 2, 3), (list, tuple)))
+# #总是优先使用isinstance()判断类型，可以将指定类型及其子类“一网打尽”。
+
+#使用dir()
+#如果要获得一个对象的所有属性和方法，可以使用dir()函数，它返回一个包含字符串的list，比如，获得一个str对象的所有属性和方法：
+print(dir('ABC'))
+print(len('ABC'))
+print('ABC'.lower())
+
+def readImage(fp):
+    if hasattr(fp, 'read'):
+        return readData(fp)
+    return None
+#假设我们希望从文件流fp中读取图像，我们首先要判断该fp对象是否存在read方法，如果存在，
+#则该对象是一个流，如果不存在，则无法读取。hasattr()就派上了用场。
+'''
+
+'''  
+#实例属性和类属性，根据类创建的实例可以任意绑定属性，给实例绑定属性的方法是通过实例变量，或者通过self变量
+class Student(object):
+    def __init__(self, name):
+        self.name = name
+s = Student('Bob')
+s.score = 90
+
+#但是，如果Student类本身需要绑定一个属性呢？可以直接在class中定义属性，这种属性是类属性，归Student类所有：
+class Student(object):
+    name = 'Student'
+s = Student()   #创建实例s
+print(s.name)   #打印name属性，因为实例并没有name属性，所以会继续查找class的name属性
+print(Student.name) # 打印类的name属性
+s.name = 'Michael'  # 给实例绑定name属性
+print(s.name)   # 由于实例属性优先级比类属性高，因此，它会屏蔽掉类的name属性
+print(Student.name) # 但是类属性并未消失，用Student.name仍然可以访问
+del s.name  # 如果删除实例的name属性
+print(s.name)   # 再次调用s.name，由于实例的name属性没有找到，类的name属性就显示出来了
+'''
+
+class Student(object):
+    count = 0
+    def __init__(self, name):
+        self.name = name
+        Student.count += 1
+
+# 测试:
+if Student.count != 0:
+    print('测试失败!')
+else:
+    bart = Student('Bart')
+    if Student.count != 1:
+        print('测试失败!')
+    else:
+        lisa = Student('Bart')
+        if Student.count != 2:
+            print('测试失败!')
+        else:
+            print('Students:', Student.count)
+            print('测试通过!')
