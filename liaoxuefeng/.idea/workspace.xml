@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cd66e6-e09f-4411-8612-980ab97af3d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ErroTest/erro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ErroTest/mydict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ErroTest/stu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ErroTest/stuUnit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ErroTest/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ErroTest/unitTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FaceCodeUp/higherCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/err.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioCode/ReadWrite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/liaoxuefeng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/liaoxuefeng.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessAndThread/muchProcess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProcessAndThread/muchThread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioCode/StringIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioCode/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioCode/useDic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neijianModule/STRuct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neijianModule/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neijianModule/collect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neijianModule/date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neijianModule/hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengze/ZhengZe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faceObject/objectCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/faceObject/objectCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioCode/ReadWrite.py" beforeDir="false" afterPath="$PROJECT_DIR$/ioCode/ReadWrite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../shenpi/TestCase_SP.mmap" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../shenpi/TestCase_SP.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../test_enviroment/las_daishen_doris.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_enviroment/las_daishen_doris.py" afterDir="false" />
@@ -405,10 +403,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ioCode/ReadWrite.py">
+        <entry file="file://$PROJECT_DIR$/neijianModule/hash.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="361">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -448,14 +446,26 @@
         <option value="$PROJECT_DIR$/ErroTest/stu.py" />
         <option value="$PROJECT_DIR$/ErroTest/stuUnit.py" />
         <option value="$PROJECT_DIR$/ioCode/ReadWrite.py" />
+        <option value="$PROJECT_DIR$/ioCode/test.txt" />
+        <option value="$PROJECT_DIR$/ioCode/StringIO.py" />
+        <option value="$PROJECT_DIR$/ioCode/useDic.py" />
+        <option value="$PROJECT_DIR$/ioCode/list.py" />
+        <option value="$PROJECT_DIR$/ProcessAndThread/muchProcess.py" />
+        <option value="$PROJECT_DIR$/ProcessAndThread/muchThread.py" />
+        <option value="$PROJECT_DIR$/zhengze/ZhengZe.py" />
+        <option value="$PROJECT_DIR$/neijianModule/datetime.py" />
+        <option value="$PROJECT_DIR$/neijianModule/date.py" />
+        <option value="$PROJECT_DIR$/neijianModule/collect.py" />
+        <option value="$PROJECT_DIR$/neijianModule/base.py" />
+        <option value="$PROJECT_DIR$/neijianModule/STRuct.py" />
+        <option value="$PROJECT_DIR$/neijianModule/hash.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="669" />
-    <option name="y" value="160" />
-    <option name="width" value="1221" />
-    <option name="height" value="1107" />
+    <option name="x" value="921" />
+    <option name="width" value="1008" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -463,7 +473,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -489,7 +498,7 @@
             <path>
               <item name="liaoxuefeng" type="b2602c69:ProjectViewProjectNode" />
               <item name="liaoxuefeng" type="462c0819:PsiDirectoryNode" />
-              <item name="ioCode" type="462c0819:PsiDirectoryNode" />
+              <item name="neijianModule" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liaoxuefeng" type="b2602c69:ProjectViewProjectNode" />
@@ -499,6 +508,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,15 +516,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\22648\Desktop" />
-      <recent name="C:\Users\22648\Desktop\liaoxuefeng\FunctionCode" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\22648\learngit\liaoxuefeng\ErroTest" />
       <recent name="C:\Users\22648\learngit\liaoxuefeng\venv" />
       <recent name="C:\Users\22648\Desktop\liaoxuefeng\hanshu" />
       <recent name="C:\Users\22648\Desktop\liaoxuefeng\diaoyong" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\22648\learngit\liaoxuefeng\zhengze" />
+      <recent name="C:\Users\22648\Desktop" />
+      <recent name="C:\Users\22648\Desktop\liaoxuefeng\FunctionCode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -529,8 +540,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ReadWrite">
-    <configuration name="ReadWrite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.hash">
+    <configuration name="STRuct" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="liaoxuefeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -538,11 +549,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ioCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neijianModule" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ioCode/ReadWrite.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neijianModule/STRuct.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -551,7 +562,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="liaoxuefeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -559,11 +570,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ErroTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neijianModule" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ErroTest/stu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neijianModule/base.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -572,7 +583,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stuUnit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="collect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="liaoxuefeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -580,11 +591,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ErroTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neijianModule" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ErroTest/stuUnit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neijianModule/collect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -593,41 +604,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for stuUnit.TestStudent.test_0_to_60" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="date" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="liaoxuefeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ErroTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neijianModule" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;stuUnit.TestStudent.test_0_to_60&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neijianModule/date.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in stuUnit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="hash" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="liaoxuefeng" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ErroTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neijianModule" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ErroTest/stuUnit.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neijianModule/hash.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ReadWrite" />
-        <item itemvalue="Python.stuUnit" />
-        <item itemvalue="Python tests.Unittests in stuUnit.py" />
-        <item itemvalue="Python tests.Unittests for stuUnit.TestStudent.test_0_to_60" />
-        <item itemvalue="Python.stu" />
+        <item itemvalue="Python.hash" />
+        <item itemvalue="Python.STRuct" />
+        <item itemvalue="Python.base" />
+        <item itemvalue="Python.collect" />
+        <item itemvalue="Python.date" />
       </list>
     </recent_temporary>
   </component>
@@ -686,14 +711,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="325" y="70" width="814" height="737" extended-state="0" />
+    <frame x="614" y="0" width="672" height="688" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22492401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32695374" />
-      <window_info anchor="bottom" x="442" y="290" width="800" height="254" id="Run" order="2" sideWeight="0.49886104" weight="0.45614034" />
+      <window_info anchor="bottom" x="442" y="290" width="800" height="254" id="Run" order="2" sideWeight="0.49886104" weight="0.20242214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -725,6 +750,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/函数/func.py" />
@@ -793,13 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/err.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/err.py" />
     <entry file="file://$PROJECT_DIR$/ErroTest/err.py" />
     <entry file="file://$PROJECT_DIR$/err.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -862,8 +884,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ioCode/ReadWrite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="555">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioCode/test.txt" />
+    <entry file="file://$PROJECT_DIR$/ioCode/dump.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioCode/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioCode/useDic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioCode/StringIO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="87" column="25" lean-forward="true" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProcessAndThread/muchProcess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="106" column="15" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
+          <folding>
+            <element signature="e#2076#2118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProcessAndThread/muchThread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhengze/ZhengZe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neijianModule/date.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neijianModule/collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3125">
+          <caret line="125" selection-start-line="125" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neijianModule/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neijianModule/STRuct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" selection-start-line="25" selection-start-column="2" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neijianModule/hash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

@@ -70,7 +70,42 @@ Input Stream就是数据从外面（磁盘、网络）流进内存，Output Stre
 #open()函数还接收一个errors参数，表示如果遇到编码错误后如何处理。最简单的方式是直接忽略：
 # f = open('C:/Users/22648/Desktop/6月份上线安排.png', 'r', encoding='gbk', errors='ignore')
 
-#写文件
-f = open('C:/Users/22648/Desktop/test.txt', 'w')
-f.write('Hello, world!')
-f.close()
+# #写文件
+# f = open('C:/Users/22648/Desktop/test.txt', 'w')
+# f.write('Hello, world!')
+# f.write('你好！')
+# f.close()
+# #用with语句比较保险
+# with open('C:/Users/22648/Desktop/test.txt', 'w') as f:
+#     f.write('Use with language!')
+#以'w'模式写入文件时，如果文件已存在，会直接覆盖（相当于删掉后新写入一个文件）。如果我们希望追加到文件末尾怎么办？
+#可以传入'a'以追加（append）模式写入。
+# with open('C:/Users/22648/Desktop/test.txt', 'a') as f:
+#     f.write('Use with language!')
+
+#练习：
+# #read
+# with open('C:/Users/22648/Desktop/test.txt', 'r') as f:
+#     #一定不要忘了加()
+#     s = f.read()
+#     print(s)
+#write
+# # with open('C:/Users/22648/Desktop/test.txt', 'w') as f:
+# #     f.write('I am so happy !')
+# #
+# # #用参数'a'替换'w'，以append的形式在末尾添加，而不是把之前内容覆盖
+# # with open('C:/Users/22648/Desktop/test.txt', 'a') as f:
+# #     f.write('Do you know ?')
+# #read
+# with open('C:/Users/22648/Desktop/test.txt', 'r') as f:
+#     #一定不要忘了加()
+#     # s = f.read()    #全部一次性读完
+#     # print(s)
+#     for line in f.readlines():
+#         print(line.strip())  # 一行行读
+
+
+
+
+
+
