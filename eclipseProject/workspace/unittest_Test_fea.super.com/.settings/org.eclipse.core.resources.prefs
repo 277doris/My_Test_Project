@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
-encoding/add_product.py=utf-8
+encoding/OrganManage.py=utf-8
+encoding/UserManage.py=utf-8
 encoding/creatDC.py=utf-8
 encoding/test_APP_Manage.py=utf-8
 encoding/test_CaseQuery.py=utf-8

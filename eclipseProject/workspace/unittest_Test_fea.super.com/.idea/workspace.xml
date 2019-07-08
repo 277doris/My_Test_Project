@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f2c73cb-eb46-4bb9-8254-3330ba0f6e20" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/daichaoManage/upManage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="107" column="66" selection-start-line="107" selection-start-column="66" selection-end-line="107" selection-end-column="66" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/login.py" />
+        <option value="$PROJECT_DIR$/login_master.py" />
+        <option value="$PROJECT_DIR$/creatDC.py" />
+        <option value="$PROJECT_DIR$/dcUser/login_master.py" />
+        <option value="$PROJECT_DIR$/dcUser/creatDC.py" />
+        <option value="$PROJECT_DIR$/fea_UserManage/dcUsers/creatDC.py" />
+        <option value="$PROJECT_DIR$/fea_UserManage/platUsers/creatPlat.py" />
+        <option value="$PROJECT_DIR$/fea_UserManage/luodiye/creatLDY.py" />
+        <option value="$PROJECT_DIR$/orgManage/OrganManage.py" />
+        <option value="$PROJECT_DIR$/orgManage/cpa.py" />
+        <option value="$PROJECT_DIR$/orgManage/cpc.py" />
+        <option value="$PROJECT_DIR$/orgManage/cps.py" />
+        <option value="$PROJECT_DIR$/nameImport/ImportName.py" />
+        <option value="$PROJECT_DIR$/caseQuery/CaseQuery.py" />
+        <option value="$PROJECT_DIR$/daichaoManage/test_daichao_Manage2.py" />
+        <option value="$PROJECT_DIR$/test_APP_Manage.py" />
+        <option value="$PROJECT_DIR$/../unnittest_call/myWorkplace.py" />
+        <option value="$PROJECT_DIR$/daichaoManage/upManage.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="198" />
+    <option name="y" value="69" />
+    <option name="width" value="1590" />
+    <option name="height" value="993" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="unittest_Test_fea.super.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unittest_Test_fea.super.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../unnittest_call/myWorkplace.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\eclipse\workspace\unittest_Test_fea.super.com\daichaoManage" />
+      <recent name="C:\eclipse\workspace\unittest_Test_fea.super.com\caseQuery" />
+      <recent name="C:\eclipse\workspace\unittest_Test_fea.super.com\nameImport" />
+      <recent name="C:\eclipse\workspace\unittest_Test_fea.super.com\orgManage" />
+      <recent name="C:\eclipse\workspace\unittest_Test_fea.super.com\fea_UserManage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\eclipse\workspace\unittest_Test_fea.super.com\fea_UserManage\platUsers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for upManage.DCMan.test_up_manage">
+    <configuration name="Unittests for upManage.DCMan" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="unittest_Test_fea.super.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daichaoManage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;upManage.DCMan&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for upManage.DCMan.test_up_manage" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="unittest_Test_fea.super.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daichaoManage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;upManage.DCMan.test_up_manage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in CaseQuery.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="unittest_Test_fea.super.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/caseQuery" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/caseQuery/CaseQuery.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in ImportName.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="unittest_Test_fea.super.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nameImport" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/nameImport/ImportName.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in upManage.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="unittest_Test_fea.super.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daichaoManage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/daichaoManage/upManage.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for upManage.DCMan.test_up_manage" />
+        <item itemvalue="Python tests.Unittests in upManage.py" />
+        <item itemvalue="Python tests.Unittests for upManage.DCMan" />
+        <item itemvalue="Python tests.Unittests in CaseQuery.py" />
+        <item itemvalue="Python tests.Unittests in ImportName.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f2c73cb-eb46-4bb9-8254-3330ba0f6e20" name="Default Changelist" comment="" />
+      <created>1561607703697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561607703697</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_upManage_DCMan_test_up_manage - 2019.07.08 at 14h 42m 54s.xml">
+      <configuration name="Unittests for upManage.DCMan.test_up_manage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_upManage_DCMan_test_up_manage - 2019.07.08 at 14h 43m 21s.xml">
+      <configuration name="Unittests for upManage.DCMan.test_up_manage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_upManage_py - 2019.07.08 at 15h 12m 52s.xml">
+      <configuration name="Unittests in upManage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_upManage_DCMan_test_up_manage - 2019.07.08 at 15h 15m 02s.xml">
+      <configuration name="Unittests for upManage.DCMan.test_up_manage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_upManage_py - 2019.07.08 at 15h 18m 58s.xml">
+      <configuration name="Unittests in upManage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_upManage_DCMan_test_up_manage - 2019.07.08 at 15h 20m 36s.xml">
+      <configuration name="Unittests for upManage.DCMan.test_up_manage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_upManage_DCMan_test_up_manage - 2019.07.08 at 15h 22m 29s.xml">
+      <configuration name="Unittests for upManage.DCMan.test_up_manage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_upManage_DCMan_test_up_manage - 2019.07.08 at 15h 26m 01s.xml">
+      <configuration name="Unittests for upManage.DCMan.test_up_manage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_upManage_DCMan_test_up_manage - 2019.07.08 at 15h 28m 21s.xml">
+      <configuration name="Unittests for upManage.DCMan.test_up_manage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_upManage_DCMan_test_up_manage - 2019.07.08 at 15h 30m 07s.xml">
+      <configuration name="Unittests for upManage.DCMan.test_up_manage" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="132" y="46" width="1060" height="662" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24665391" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37070525" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24746291" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37070525" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/add_product.py" />
+    <entry file="file://C:/Python/Python37-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/fea/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/fea/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcUser/dcUsers/login_master.py" />
+    <entry file="file://$PROJECT_DIR$/dcUser/dcUsers/creatDC.py" />
+    <entry file="file://$PROJECT_DIR$/DCManage.py" />
+    <entry file="file://$PROJECT_DIR$/fea_UserManage/login_master.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fea_UserManage/luodiye/creatLDY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-719">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgManage/OrganManage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" selection-start-line="25" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgManage/cpa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="111" column="30" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgManage/cpc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4042">
+          <caret line="164" column="54" selection-start-line="164" selection-start-column="54" selection-end-line="164" selection-end-column="54" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fea_UserManage/platUsers/creatPlat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="120" selection-start-line="120" selection-end-line="121" selection-end-column="41" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nameImport/ImportName.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caseQuery/CaseQuery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orgManage/cps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="113" selection-start-line="113" selection-end-line="114" selection-end-column="37" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unnittest_call/distributeManage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3002">
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unnittest_call/organManage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unnittest_call/firstPage_专员.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1675">
+          <caret line="103" column="8" lean-forward="true" selection-start-line="103" selection-start-column="8" selection-end-line="105" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fea_UserManage/dcUsers/creatDC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3385">
+          <caret line="163" column="8" selection-start-line="163" selection-start-column="8" selection-end-line="164" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../unnittest_call/myWorkplace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_APP_Manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1250">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_daichao_statement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1700">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daichaoManage/upManage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="107" column="66" selection-start-line="107" selection-start-column="66" selection-end-line="107" selection-end-column="66" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
