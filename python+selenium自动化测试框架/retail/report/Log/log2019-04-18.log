@@ -1,0 +1,123 @@
+2019-04-18 17:10:41,390 - doconfIni.py:[36] - [INFO] - read excel value [D:\Petrochina_Retail_Test_Project] successed! 
+2019-04-18 17:10:41,637 - testreport.py:[35] - [INFO] - successed to generate test report [D:\Petrochina_Retail_Test_Project\retail\report\TestReport\report2019-04-18 17_10_41.html]
+2019-04-18 17:10:43,877 - doexcel.py:[31] - [INFO] - initing class ReadExcel
+2019-04-18 17:10:43,895 - doexcel.py:[31] - [INFO] - initing class ReadExcel
+2019-04-18 17:10:43,913 - doexcel.py:[31] - [INFO] - initing class ReadExcel
+2019-04-18 17:10:43,930 - doexcel.py:[31] - [INFO] - initing class ReadExcel
+2019-04-18 17:10:43,930 - doexcel.py:[46] - [INFO] - reading value [权限管理] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,931 - doexcel.py:[46] - [INFO] - reading value [会员档案] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,932 - doexcel.py:[46] - [INFO] - reading value [积分消费查询] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,932 - doexcel.py:[46] - [INFO] - reading value [功能演示] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,932 - doexcel.py:[46] - [INFO] - reading value [待办工作] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,932 - doexcel.py:[46] - [INFO] - reading value [报表] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,932 - doexcel.py:[46] - [INFO] - reading value [积分规则/活动查询] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,932 - doexcel.py:[46] - [INFO] - reading value [积分规则/活动申请] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [username] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [password] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [loginSubmitButton] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [checkcookie] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [inputTdRight] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [logout] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [rmln] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [qwert1234!@#] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [rmlv] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [qwert1234!@#] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,933 - doexcel.py:[46] - [INFO] - reading value [qwert1234!@#] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,934 - doexcel.py:[46] - [INFO] - reading value [rml] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,934 - doexcel.py:[46] - [INFO] - reading value [qwert1234!@] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,934 - doexcel.py:[46] - [INFO] - reading value [rmln] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,934 - doexcel.py:[46] - [INFO] - reading value [] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,934 - doexcel.py:[46] - [INFO] - reading value [rmln] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,934 - doexcel.py:[46] - [INFO] - reading value [quert1234] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,934 - doexcel.py:[46] - [INFO] - reading value [] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:43,934 - doexcel.py:[46] - [INFO] - reading value [] from excel file [D:\Petrochina_Retail_Test_Project\retail\data\TestData\elementDate.xlsx] completed
+2019-04-18 17:10:58,713 - driver.py:[27] - [INFO] - fireFoxDriver:found the Firefox driver [<selenium.webdriver.firefox.webdriver.WebDriver (session="b8196622-bcd3-4a88-b2a2-11622a0f755d")>] successed !
+2019-04-18 17:11:02,891 - myunit.py:[25] - [INFO] - opened the browser successed!
+2019-04-18 17:11:24,179 - base_page.py:[53] - [ERROR] - Message: Reached error page: about:neterror?e=netTimeout&u=http%3A//11.11.164.134%3A9081/rmms/modules/ep.rmms.portal/login/login.jsp&c=UTF-8&f=regular&d=11.11.164.134%20%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%93%8D%E5%BA%94%E6%97%B6%E9%97%B4%E8%BF%87%E9%95%BF%E3%80%82
+Traceback (most recent call last):
+  File "D:\Petrochina_Retail_Test_Project\retail\test_case\page_obj\base_page.py", line 50, in _open
+    self.driver.get(url)
+  File "C:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 332, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=netTimeout&u=http%3A//11.11.164.134%3A9081/rmms/modules/ep.rmms.portal/login/login.jsp&c=UTF-8&f=regular&d=11.11.164.134%20%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%93%8D%E5%BA%94%E6%97%B6%E9%97%B4%E8%BF%87%E9%95%BF%E3%80%82
+
+2019-04-18 17:11:34,597 - base_page.py:[56] - [INFO] - _open is accessing address http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp at line[46]
+2019-04-18 17:11:34,598 - base_page.py:[65] - [INFO] - http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp loading successed!
+2019-04-18 17:11:34,598 - myunit.py:[35] - [INFO] - ************************starting run test cases************************
+2019-04-18 17:11:34,702 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD96860> had already find the element ('id', 'username')
+2019-04-18 17:11:34,773 - base_page.py:[118] - [INFO] - inputValue:[('id', 'username')] is receiveing value [rmln]
+2019-04-18 17:11:34,813 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD96860> had already find the element ('id', 'password')
+2019-04-18 17:11:35,089 - base_page.py:[118] - [INFO] - inputValue:[('id', 'password')] is receiveing value [quert1234]
+2019-04-18 17:11:35,556 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD96860> had already find the element ('id', 'loginSubmitButton')
+2019-04-18 17:11:36,145 - login_page.py:[45] - [INFO] - clickLoginBtn ,logining....!
+2019-04-18 17:11:36,184 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD96860> had already find the element ('id', 'inputTdRight')
+2019-04-18 17:11:36,247 - login_page.py:[53] - [INFO] - login failed : 输入的用户名或密码错误，请重新输入!
+2019-04-18 17:11:36,247 - LoginTc.py:[48] - [INFO] - test_login_failed_incorrect_password->run completed! please check the test report
+2019-04-18 17:11:37,094 - myunit.py:[43] - [INFO] - ************************test case run completed************************
+2019-04-18 17:11:37,298 - base_page.py:[56] - [INFO] - _open is accessing address http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp at line[46]
+2019-04-18 17:11:37,298 - base_page.py:[65] - [INFO] - http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp loading successed!
+2019-04-18 17:11:37,299 - myunit.py:[35] - [INFO] - ************************starting run test cases************************
+2019-04-18 17:11:37,336 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD82160> had already find the element ('id', 'username')
+2019-04-18 17:11:37,372 - base_page.py:[118] - [INFO] - inputValue:[('id', 'username')] is receiveing value [rmlv]
+2019-04-18 17:11:37,392 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD82160> had already find the element ('id', 'password')
+2019-04-18 17:11:37,426 - base_page.py:[118] - [INFO] - inputValue:[('id', 'password')] is receiveing value [qwert1234!@#]
+2019-04-18 17:11:37,441 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD82160> had already find the element ('id', 'loginSubmitButton')
+2019-04-18 17:11:37,703 - login_page.py:[45] - [INFO] - clickLoginBtn ,logining....!
+2019-04-18 17:11:37,732 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD82160> had already find the element ('id', 'inputTdRight')
+2019-04-18 17:11:37,757 - login_page.py:[53] - [INFO] - login failed : 输入的用户名或密码错误，请重新输入!
+2019-04-18 17:11:37,757 - LoginTc.py:[39] - [INFO] - test_login_failed_incorrect_username->run completed! please check the test report
+2019-04-18 17:11:38,533 - myunit.py:[43] - [INFO] - ************************test case run completed************************
+2019-04-18 17:11:38,806 - base_page.py:[56] - [INFO] - _open is accessing address http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp at line[46]
+2019-04-18 17:11:38,807 - base_page.py:[65] - [INFO] - http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp loading successed!
+2019-04-18 17:11:38,807 - myunit.py:[35] - [INFO] - ************************starting run test cases************************
+2019-04-18 17:11:38,872 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD72EB8> had already find the element ('id', 'username')
+2019-04-18 17:11:38,916 - base_page.py:[118] - [INFO] - inputValue:[('id', 'username')] is receiveing value [rmln]
+2019-04-18 17:11:38,954 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD72EB8> had already find the element ('id', 'password')
+2019-04-18 17:11:38,985 - base_page.py:[118] - [INFO] - inputValue:[('id', 'password')] is receiveing value []
+2019-04-18 17:11:39,008 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD72EB8> had already find the element ('id', 'loginSubmitButton')
+2019-04-18 17:11:39,059 - login_page.py:[45] - [INFO] - clickLoginBtn ,logining....!
+2019-04-18 17:11:39,088 - login_page.py:[70] - [INFO] - login failed ,handleAlert handle alert successed alert info: 请填写用户密码!
+2019-04-18 17:11:39,088 - LoginTc.py:[64] - [INFO] - test_login_failed_password_blank->run completed! please check the test report
+2019-04-18 17:11:39,970 - myunit.py:[43] - [INFO] - ************************test case run completed************************
+2019-04-18 17:11:40,177 - base_page.py:[56] - [INFO] - _open is accessing address http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp at line[46]
+2019-04-18 17:11:40,178 - base_page.py:[65] - [INFO] - http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp loading successed!
+2019-04-18 17:11:40,178 - myunit.py:[35] - [INFO] - ************************starting run test cases************************
+2019-04-18 17:11:40,216 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD967B8> had already find the element ('id', 'username')
+2019-04-18 17:11:40,266 - base_page.py:[118] - [INFO] - inputValue:[('id', 'username')] is receiveing value [rml]
+2019-04-18 17:11:40,288 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD967B8> had already find the element ('id', 'password')
+2019-04-18 17:11:40,326 - base_page.py:[118] - [INFO] - inputValue:[('id', 'password')] is receiveing value [rmln]
+2019-04-18 17:11:40,351 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD967B8> had already find the element ('id', 'loginSubmitButton')
+2019-04-18 17:11:40,691 - login_page.py:[45] - [INFO] - clickLoginBtn ,logining....!
+2019-04-18 17:11:40,720 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD967B8> had already find the element ('id', 'inputTdRight')
+2019-04-18 17:11:40,745 - login_page.py:[53] - [INFO] - login failed : 输入的用户名或密码错误，请重新输入!
+2019-04-18 17:11:40,745 - LoginTc.py:[72] - [INFO] - test_login_failed_unpw_incorrect->run completed! please check the test report
+2019-04-18 17:11:41,484 - myunit.py:[43] - [INFO] - ************************test case run completed************************
+2019-04-18 17:11:42,140 - base_page.py:[56] - [INFO] - _open is accessing address http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp at line[46]
+2019-04-18 17:11:42,141 - base_page.py:[65] - [INFO] - http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp loading successed!
+2019-04-18 17:11:42,141 - myunit.py:[35] - [INFO] - ************************starting run test cases************************
+2019-04-18 17:11:42,167 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD72CF8> had already find the element ('id', 'username')
+2019-04-18 17:11:42,196 - base_page.py:[118] - [INFO] - inputValue:[('id', 'username')] is receiveing value []
+2019-04-18 17:11:42,210 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD72CF8> had already find the element ('id', 'password')
+2019-04-18 17:11:42,233 - base_page.py:[118] - [INFO] - inputValue:[('id', 'password')] is receiveing value []
+2019-04-18 17:11:42,247 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD72CF8> had already find the element ('id', 'loginSubmitButton')
+2019-04-18 17:11:42,271 - login_page.py:[45] - [INFO] - clickLoginBtn ,logining....!
+2019-04-18 17:11:42,291 - login_page.py:[70] - [INFO] - login failed ,handleAlert handle alert successed alert info: 请填写用户名!
+2019-04-18 17:11:42,291 - LoginTc.py:[56] - [INFO] - test_login_failed_username_password_blank->run completed! please check the test report
+2019-04-18 17:11:43,256 - myunit.py:[43] - [INFO] - ************************test case run completed************************
+2019-04-18 17:11:43,535 - base_page.py:[56] - [INFO] - _open is accessing address http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp at line[46]
+2019-04-18 17:11:43,535 - base_page.py:[65] - [INFO] - http://11.11.164.134:9081/rmms/modules/ep.rmms.portal/login/login.jsp loading successed!
+2019-04-18 17:11:43,536 - myunit.py:[35] - [INFO] - ************************starting run test cases************************
+2019-04-18 17:11:43,560 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD96780> had already find the element ('id', 'username')
+2019-04-18 17:11:43,590 - base_page.py:[118] - [INFO] - inputValue:[('id', 'username')] is receiveing value [rmln]
+2019-04-18 17:11:43,609 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD96780> had already find the element ('id', 'password')
+2019-04-18 17:11:43,653 - base_page.py:[118] - [INFO] - inputValue:[('id', 'password')] is receiveing value [qwert1234!@#]
+2019-04-18 17:11:43,670 - base_page.py:[83] - [INFO] - The page of <retail.test_case.page_obj.login_page.LoginPage object at 0x000002000FD96780> had already find the element ('id', 'loginSubmitButton')
+2019-04-18 17:11:44,053 - login_page.py:[45] - [INFO] - clickLoginBtn ,logining....!
+2019-04-18 17:11:44,836 - base_page.py:[211] - [INFO] - the file [correct_username_password_fail.png]  save screenshot successed under [D:\Petrochina_Retail_Test_Project\retail\report\image\fail]
+2019-04-18 17:11:45,696 - myunit.py:[43] - [INFO] - ************************test case run completed************************
+2019-04-18 17:11:47,040 - myunit.py:[49] - [INFO] - quit the browser success!
